@@ -1,0 +1,55 @@
+---
+title: "Neural Networks"
+author: "Yiwen Li"
+date: "2023-12-23"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+## Set up the required packages
+# install.packages(c('neuralnet','keras','tensorflow'),dependencies = T)
+# install.packages(tidyverse)
+library(tidyverse)
+library(neuralnet)
+```
+
+```{r}
+# Load the iris dataset
+iris <- iris %>% mutate_if(is.character, as.factor)
+glimpse(iris)
+```
+
+```{r}
+# Set a seed to ensure reproducibility
+# Split the data into training (70%) and testing sets (30%).
+set.seed(245)
+data_rows <- floor(0.7 * nrow(iris))
+train_indices <- sample(c(1:nrow(iris)), data_rows)
+train_data <- iris[train_indices,]
+test_data <- iris[-train_indices,]
+```
+
+```{r}
+# Build a neural network model on the training set
+# to predict the species (Species) based on four selected features
+model = neuralnet(
+    Species~Sepal.Length+Sepal.Width+Petal.Length+Petal.Width,
+data=train_data,
+hidden=c(4,2), # Specify two hidden layers, the first layer with four neurons and the second with two neurons.
+linear.output = FALSE
+)
+```
+
+```{r}
+# Visualize the model architecture
+plot(model,rep = "best") # shows the best-performing network if multiple are trained
+```
+
+
+
