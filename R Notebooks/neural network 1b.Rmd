@@ -1,0 +1,129 @@
+---
+title: "Neural Network Practice Example"
+output: html_notebook
+---
+
+```{r, message=FALSE}
+## Set up the required packages
+# install.packages(c('neuralnet','keras','tensorflow'),dependencies = T)
+# install.packages(tidyverse)
+# install.packages('rattle')
+# Load required libraries
+set.seed(123)
+library(tidyverse)
+library(neuralnet)
+library(rattle) # For the wine dataset
+
+# Load the wine dataset
+# The wine dataset contains the results of a chemical analysis of wines grown in a specific area of Italy. 
+# Three types of wine are represented in the 178 samples, with the results of 13 chemical analyses recorded for each sample
+# More details of the data here: https://search.r-project.org/CRAN/refmans/rattle/html/wine.html
+data(wine)
+glimpse(wine)
+```
+
+```{r}
+# Convert Type into a factor (classification target)
+wine$Type <- as.factor(wine$Type)
+
+# Split the data into training (70%) and testing sets (30%)
+data_rows <- floor(0.7 * nrow(wine))
+train_indices <- sample(c(1:nrow(wine)), data_rows)
+train_data <- wine[train_indices,]
+test_data <- wine[-train_indices,]
+```
+
+## Build neural network with one hidden layer
+
+```{r}
+# Model 1: Neural network with one hidden layer
+model_1 <- neuralnet(
+    Type~., # Use all other variables as predictors
+    data=train_data,
+    hidden=c(5), # One hidden layer with five neurons
+    linear.output=FALSE
+)
+```
+
+```{r}
+# Plot the neural network models
+plot(model_1)
+```
+
+```{r}
+# Apply model 1 on the testing set to make predictions
+pred_1 <- predict(model_1, test_data)
+
+# Check if the predicted classes match the actual classes
+check_1 <- as.numeric(test_data$Type) == max.col(pred_1)
+
+# Calculate accuracy as a percentage
+accuracy_1 <- (sum(check_1) / nrow(test_data)) * 100
+
+# Print the accuracy
+print(paste("Accuracy: ", round(accuracy_1, 2), "%"))
+```
+
+## Build neural network with two hidden layers
+
+```{r}
+# Model 2: Neural network with two hidden layers
+model_2 <- neuralnet(
+    Type~.,
+    data=train_data,
+    hidden=c(5,3), # Two hidden layers with five and three neurons respectively
+    linear.output=FALSE
+)
+```
+
+```{r}
+plot(model_2)
+```
+
+
+```{r}
+# Apply model 2 on the testing set to make predictions
+pred_2 <- predict(model_2, test_data)
+
+# Check if the predicted classes match the actual classes
+check_2 <- as.numeric(test_data$Type) == max.col(pred_2)
+
+# Calculate accuracy as a percentage
+accuracy_2 <- (sum(check_2) / nrow(test_data)) * 100
+
+# Print the accuracy
+print(paste("Accuracy: ", round(accuracy_2, 2), "%"))
+```
+
+## Build neural network with two hidden layers and increasing neurons
+
+```{r}
+# Model 3: Neural network with one hidden layer
+model_3 <- neuralnet(
+    Type~., # Use all other variables as predictors
+    data=train_data,
+    hidden=c(5,2), # One hidden layer with five neurons
+    linear.output=FALSE
+)
+
+```
+
+```{r}
+# Plot the neural network models
+plot(model_3)
+```
+
+```{r}
+# Apply model31 on the testing set to make predictions
+pred_3 <- predict(model_3, test_data)
+
+# Check if the predicted classes match the actual classes
+check_3 <- as.numeric(test_data$Type) == max.col(pred_3)
+
+# Calculate accuracy as a percentage
+accuracy_3 <- (sum(check_3) / nrow(test_data)) * 100
+
+# Print the accuracy
+print(paste("Accuracy: ", round(accuracy_3, 2), "%"))
+```
+
