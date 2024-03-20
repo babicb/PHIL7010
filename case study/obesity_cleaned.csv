@@ -1,0 +1,1001 @@
+Age,Gender,Height,Weight,PhysicalActivityLevel,ObesityCategory,Race,MaritalStatus,DailyCalorieIntake,SleepHours,BMI
+56,Male,173.6,72,4,Normal weight,Asian,Divorced,1849.6,8.4,23.9
+69,Male,164.1,90,2,Obese,Asian,Widowed,1876.1,8.4,33.4
+46,Female,168.1,72.9,4,Overweight,Black,Married,2251.9,5.9,25.8
+32,Male,168.5,84.9,3,Overweight,Black,Divorced,1642.4,8,29.9
+60,Male,183.6,69,3,Normal weight,Asian,Widowed,1964.2,7.7,20.5
+25,Female,166.4,61.1,4,Normal weight,Other,Divorced,2051.8,6.5,22.1
+78,Male,183.6,92.2,3,Overweight,Hispanic,Married,2128.2,7.4,27.4
+38,Male,142.9,59.4,1,Overweight,White,Widowed,1960.8,7.7,29.1
+56,Male,183.5,75.2,4,Normal weight,Black,Married,1762.1,6.8,22.3
+75,Male,183,81.5,2,Normal weight,Asian,Divorced,2083,7.4,24.4
+36,Male,179,82.6,4,Overweight,Other,Widowed,2036.8,8.4,25.8
+40,Female,149.9,52.5,1,Normal weight,Asian,Single,1739.5,8,23.4
+28,Male,180.2,85.8,1,Overweight,Asian,Widowed,1834.1,7.5,26.4
+28,Male,169.5,55.3,1,Normal weight,White,Single,1671.1,6.8,19.3
+41,Male,144.7,82.2,1,Obese,Hispanic,Single,1904.3,5.1,39.2
+70,Male,183,78,1,Normal weight,White,Widowed,2176.9,8.1,23.3
+53,Male,184.4,82.3,2,Normal weight,White,Divorced,1955.8,7,24.2
+57,Female,151,51.9,3,Normal weight,Other,Divorced,1879.6,5.4,22.8
+41,Male,171.8,78.8,1,Overweight,Asian,Divorced,2329.6,7.9,26.7
+20,Female,183.9,86.3,1,Overweight,Black,Widowed,2132.5,9.4,25.5
+39,Female,182.3,72.9,4,Normal weight,Black,Single,2250.1,9,21.9
+70,Male,178.4,57.7,2,Underweight,White,Single,2318.7,7.8,18.1
+19,Male,143.5,83.8,2,Obese,Asian,Divorced,2219.2,4.7,40.7
+41,Male,177.3,71.7,3,Normal weight,Hispanic,Widowed,1998.8,7.4,22.8
+61,Male,167.8,44.9,2,Underweight,White,Divorced,2352,8.8,15.9
+47,Female,180,56.6,4,Underweight,Asian,Widowed,2029.7,8.2,17.5
+55,Male,172.6,62.1,4,Normal weight,Other,Divorced,2354.4,8,20.9
+19,Male,169.8,92.6,3,Obese,Hispanic,Single,2261.3,7.6,32.1
+77,Male,176.4,90,4,Overweight,Black,Single,2144.7,6.3,28.9
+38,Male,168.3,89.9,1,Obese,Other,Single,2414.8,7.1,31.7
+50,Male,169.8,73.5,1,Overweight,White,Single,2222.6,8,25.5
+29,Male,164.4,83.7,4,Obese,White,Single,2077.2,8.6,31
+75,Female,153.9,52.9,3,Normal weight,Black,Divorced,1946,4.8,22.3
+39,Female,175.7,70.1,2,Normal weight,Asian,Widowed,1873.7,7.3,22.7
+78,Male,161.9,76.8,3,Overweight,Hispanic,Married,2350.5,4.3,29.3
+61,Male,168,53.9,2,Normal weight,Other,Divorced,1775.6,7.6,19.1
+42,Male,172.9,73.1,4,Normal weight,Other,Widowed,2023.1,8.5,24.5
+66,Female,149.1,95.3,4,Obese,Asian,Divorced,2106,5.4,42.8
+44,Male,151.4,78.4,1,Obese,White,Divorced,2458.9,6.3,34.2
+76,Female,167,83.8,2,Obese,Black,Divorced,2362.2,7.7,30
+59,Male,174.5,33.2,3,Underweight,Other,Single,1525,8.2,10.9
+45,Male,177.4,93.4,4,Overweight,Other,Married,1856.4,8.3,29.7
+77,Male,154.1,67.2,3,Overweight,Hispanic,Married,2218.8,8.5,28.3
+33,Male,176.4,58.5,1,Normal weight,Other,Widowed,1838.9,8.3,18.8
+32,Female,167.5,67.4,2,Normal weight,Black,Divorced,1964.2,8,24
+79,Female,161.2,47.7,2,Underweight,White,Divorced,2007.9,10,18.4
+79,Male,163.5,85.7,4,Obese,White,Married,2346.4,7.4,32.1
+64,Male,178,65,2,Normal weight,Asian,Single,1729,7.8,20.5
+79,Female,172.7,58.9,4,Normal weight,White,Single,1500,8.5,19.7
+68,Female,170.5,67.5,1,Normal weight,Other,Single,2129.8,8.2,23.2
+61,Female,172.4,86.8,2,Overweight,White,Divorced,1829.3,5.4,29.2
+72,Female,179.3,72,4,Normal weight,Black,Widowed,1962.2,8.4,22.4
+69,Male,169,48.9,3,Underweight,Hispanic,Single,1605.2,9.4,17.1
+74,Female,170.5,77,4,Overweight,Hispanic,Married,2055.6,8.5,26.5
+20,Male,181.4,56.1,2,Underweight,Asian,Widowed,1810.9,8.4,17
+54,Female,166.7,37.7,1,Underweight,White,Married,2054.3,8.8,13.6
+68,Female,176.2,92.4,2,Overweight,Black,Widowed,2076.3,6.9,29.8
+24,Female,165,76.9,2,Overweight,White,Married,1953.3,7.3,28.2
+38,Female,165.8,68.8,4,Overweight,Black,Single,1936.8,8.1,25
+26,Female,169,64.8,3,Normal weight,Hispanic,Married,1910,6.4,22.7
+56,Male,175.2,91,2,Overweight,Other,Divorced,1977,9,29.6
+35,Male,181.9,116.3,3,Obese,Other,Divorced,2240.5,6.9,35.1
+21,Female,171,76.7,4,Overweight,Asian,Widowed,1954.8,7.7,26.3
+42,Female,155,54.6,3,Normal weight,White,Single,1905.2,8.5,22.7
+77,Male,176.3,67.7,4,Normal weight,Hispanic,Widowed,2154.4,6.2,21.8
+31,Female,194.5,76.5,1,Normal weight,White,Divorced,1601.9,7.8,20.2
+67,Female,171.1,34.8,3,Underweight,White,Divorced,1638.2,9.5,11.9
+75,Male,152.9,75,3,Obese,Asian,Divorced,2265.6,6.7,32.1
+26,Female,171.7,76.5,1,Overweight,Hispanic,Single,2420.5,7.3,26
+43,Female,170,89.9,3,Obese,White,Married,2164.7,6.2,31.1
+70,Male,169.1,88.3,1,Obese,Asian,Married,1647.3,7.7,30.9
+19,Male,179.5,71.7,2,Normal weight,Other,Married,2210.6,7.3,22.3
+37,Male,183.8,92.7,4,Overweight,Asian,Widowed,2031.9,7.2,27.5
+45,Female,176.8,100.5,1,Obese,Black,Widowed,2125.7,6.8,32.1
+64,Male,168.7,70.4,3,Normal weight,Other,Married,1944.9,5.3,24.8
+77,Male,181.3,76.3,1,Normal weight,Other,Single,2043.4,7.9,23.2
+24,Male,155.1,43.5,3,Underweight,Asian,Married,2109.1,8,18.1
+61,Male,162.8,48.2,2,Underweight,Black,Single,1892.6,8,18.2
+78,Male,164,57.4,1,Normal weight,Black,Married,1637.4,6.7,21.4
+25,Male,169.7,63.3,2,Normal weight,Black,Widowed,1994,7.2,22
+64,Female,175.1,53.6,4,Underweight,Hispanic,Single,2117.2,6.2,17.5
+52,Female,168,69.5,3,Normal weight,Black,Married,2314.5,7.4,24.6
+31,Male,160.9,63.8,3,Normal weight,Black,Single,1935.1,6.3,24.6
+34,Male,179.7,86.1,2,Overweight,Hispanic,Divorced,2221.5,6.4,26.6
+53,Male,167.6,62.9,4,Normal weight,Hispanic,Married,1722.8,9.3,22.4
+67,Female,171,35.7,1,Underweight,White,Widowed,2197,9.6,12.2
+57,Female,175.5,71.9,1,Normal weight,Asian,Single,2078,6.4,23.3
+21,Female,170.4,69.8,3,Normal weight,Asian,Single,1923.3,7.4,24
+19,Female,170.4,57.1,2,Normal weight,White,Widowed,2128.1,8.9,19.6
+79,Female,180.3,71.4,2,Normal weight,Asian,Single,1871.5,7.9,22
+23,Female,171.5,53.9,1,Underweight,Other,Married,1708.8,6.7,18.3
+71,Female,178.6,74.9,4,Normal weight,Black,Widowed,1907.5,7.8,23.5
+59,Female,175.4,109.5,4,Obese,Asian,Single,2243.9,5.8,35.6
+21,Female,190.2,42.9,1,Underweight,Black,Widowed,1916,7.8,11.9
+71,Male,174.1,62.3,1,Normal weight,Other,Single,1844.4,6.4,20.5
+46,Male,176.4,59.9,2,Normal weight,Other,Divorced,1891.1,8.7,19.2
+35,Male,181,63.5,4,Normal weight,Asian,Widowed,2094.3,8.6,19.4
+43,Male,170.6,85.3,1,Overweight,Hispanic,Married,2038.3,7.3,29.3
+61,Female,163.6,78.1,1,Overweight,Hispanic,Widowed,2204.5,6.2,29.2
+51,Female,165.3,82.7,3,Obese,Hispanic,Divorced,2210.7,7.2,30.3
+27,Male,165.4,70.5,1,Overweight,Other,Widowed,1887.8,7.8,25.8
+79,Female,160.5,50.2,1,Normal weight,Asian,Divorced,1720.8,8.1,19.5
+53,Male,173.2,53.3,4,Underweight,White,Divorced,1733.4,8.9,17.8
+31,Female,163.7,81.2,2,Obese,Black,Married,1747.8,5.9,30.3
+48,Male,171.9,72.6,4,Normal weight,White,Single,1942.9,6.4,24.5
+65,Female,168.4,88.9,2,Obese,Black,Divorced,2423.8,7.3,31.3
+32,Female,169.6,74.4,3,Overweight,Other,Married,2149.7,7.3,25.9
+25,Male,175.6,52.3,1,Underweight,Asian,Single,1676,9.3,17
+31,Female,164.6,62.2,3,Normal weight,Hispanic,Divorced,1871.9,5.6,23
+40,Male,176.4,78.5,2,Overweight,Hispanic,Married,2150.7,8.3,25.2
+77,Male,185.7,80.7,4,Normal weight,White,Divorced,2268.9,7,23.4
+74,Male,173.4,82.8,4,Overweight,Hispanic,Divorced,1988.8,6.7,27.5
+79,Male,162.2,54.3,3,Normal weight,White,Widowed,1655.3,8.5,20.6
+57,Female,163.8,52,2,Normal weight,Asian,Divorced,1678.7,5.9,19.4
+38,Female,167.5,67.2,3,Normal weight,Hispanic,Divorced,2188.3,7.5,23.9
+33,Female,164.1,91.6,3,Obese,Asian,Widowed,2056.1,5.9,34
+62,Male,160.1,59.6,1,Normal weight,Other,Widowed,2306.8,7.5,23.3
+35,Female,171.5,76.8,3,Overweight,Hispanic,Married,2123.8,7.4,26.1
+64,Male,167.8,76.8,1,Overweight,Hispanic,Widowed,2101.1,7.3,27.3
+70,Female,171.9,81.4,1,Overweight,Hispanic,Divorced,2330.6,6.7,27.6
+41,Female,181.9,95,4,Overweight,White,Widowed,1732.7,5.5,28.7
+43,Female,167.6,93.4,1,Obese,Black,Divorced,2374.6,8.4,33.2
+42,Male,158.1,61.1,1,Normal weight,Asian,Divorced,2321.4,7,24.4
+77,Female,166,38.5,4,Underweight,Hispanic,Married,1589.3,8.1,14
+77,Female,177.7,59.8,3,Normal weight,Asian,Single,1823,8.4,18.9
+77,Male,176.8,71.1,2,Normal weight,White,Single,2035.5,6.5,22.8
+62,Female,175.2,64.6,2,Normal weight,Other,Widowed,1640.8,6.2,21
+58,Male,163.8,99.5,2,Obese,Other,Widowed,2272.6,8,37.1
+46,Female,177.5,70.3,3,Normal weight,Black,Married,1831.5,9.1,22.3
+32,Male,179.8,79.8,1,Normal weight,Asian,Married,2059.9,7.2,24.7
+62,Male,163,73.3,2,Overweight,Other,Divorced,1998.5,8.8,27.6
+18,Female,169.6,64.8,3,Normal weight,White,Single,2074.2,7.5,22.5
+42,Male,190.2,41.1,1,Underweight,Hispanic,Single,1694.8,9.5,11.4
+24,Male,162.6,68.8,4,Overweight,Black,Single,1918.9,7.3,26
+26,Male,152.9,118.8,2,Obese,Hispanic,Widowed,2582.1,4.7,50.8
+41,Male,183.8,51.3,1,Underweight,Other,Single,1918.7,9,15.2
+18,Male,181.4,42.8,2,Underweight,Other,Single,1866.8,8.6,13
+61,Male,165.4,99,2,Obese,Other,Divorced,2273.5,5.4,36.2
+25,Female,168.9,81.1,2,Overweight,Other,Widowed,1925.4,6.3,28.5
+41,Male,157.8,72.8,1,Overweight,White,Married,1819.8,8.1,29.3
+28,Male,170.9,90.4,3,Obese,Black,Divorced,2438.5,5.4,31
+68,Female,181.7,57.5,1,Underweight,White,Married,1935.2,9,17.4
+34,Female,164.6,68.4,2,Overweight,Black,Single,1787.2,7.5,25.3
+25,Female,178.8,84.3,1,Overweight,Other,Single,1764.1,8.6,26.4
+52,Female,174.6,101.7,4,Obese,Other,Widowed,2098.3,6.7,33.3
+52,Female,175.8,52.5,3,Underweight,White,Married,1780.1,7.4,17
+50,Female,165.2,89.2,1,Obese,Black,Single,2171.8,6.5,32.7
+76,Female,166.5,75.7,4,Overweight,Other,Single,2264.8,4.4,27.3
+22,Male,151.5,72.4,3,Obese,Hispanic,Divorced,1825.7,5.8,31.6
+59,Male,164.3,69.9,4,Overweight,Black,Married,2321.4,7.6,25.9
+56,Female,181.6,49.2,3,Underweight,Black,Widowed,1888.9,8.6,14.9
+75,Male,160.7,84.4,1,Obese,Asian,Single,2138.1,7.4,32.7
+58,Male,162.2,58.3,4,Normal weight,White,Married,2004.1,6.6,22.1
+45,Male,176.4,53.8,2,Underweight,White,Widowed,1674.5,8.7,17.3
+24,Female,174,83.3,4,Overweight,Other,Married,2270.8,7.7,27.5
+26,Female,176.9,81.8,3,Overweight,Other,Married,2179.1,6.8,26.2
+25,Male,158.4,71.2,1,Overweight,Asian,Single,1786.8,5.5,28.4
+29,Female,195.6,86.2,3,Normal weight,Black,Married,1774.1,8.7,22.5
+51,Male,157.8,91.4,4,Obese,Other,Single,2199.2,6.1,36.7
+50,Male,171.5,89.6,4,Obese,Other,Widowed,1931.7,7.1,30.5
+65,Male,168.4,62.1,2,Normal weight,Asian,Divorced,1606.5,7.3,21.9
+72,Male,158.1,85.2,1,Obese,Asian,Widowed,2054,5.3,34.1
+40,Female,166.3,73.2,1,Overweight,White,Divorced,1971.2,6.9,26.5
+79,Female,170.2,95.9,4,Obese,Hispanic,Single,1877.5,7.6,33.1
+41,Female,163.5,68.1,1,Overweight,Black,Married,1985.4,8.3,25.5
+54,Male,179.4,64.7,2,Normal weight,White,Divorced,1687.7,8.8,20.1
+52,Female,168.4,60.8,3,Normal weight,Black,Married,1551.3,7.1,21.4
+61,Male,156.6,72.8,1,Overweight,Hispanic,Divorced,1945.5,5.3,29.7
+57,Female,155.7,77,4,Obese,Other,Widowed,1959.8,7.3,31.7
+39,Male,176.1,77.3,3,Normal weight,White,Single,2300.2,7.5,24.9
+44,Male,155.1,75.2,3,Obese,White,Widowed,2026.1,6.8,31.3
+52,Male,173.2,80.1,2,Overweight,White,Widowed,2117.1,6.9,26.7
+18,Female,174.4,66.7,4,Normal weight,Other,Divorced,1857.8,6.1,21.9
+52,Female,160,56.9,1,Normal weight,Asian,Widowed,1829.7,8.3,22.2
+54,Female,178.9,55.6,4,Underweight,White,Married,1628.7,7.2,17.4
+64,Female,152.8,84.6,3,Obese,Black,Divorced,1925.2,5.6,36.2
+31,Male,173,77.1,4,Overweight,Black,Divorced,2108.7,5,25.8
+20,Female,169.6,42.2,1,Underweight,White,Divorced,2108.5,10,14.7
+18,Female,168.8,86.5,1,Obese,Black,Single,2171.1,7.4,30.3
+22,Male,158.2,98.2,2,Obese,White,Single,2366.6,4.7,39.2
+43,Male,160.6,59.3,1,Normal weight,Other,Married,1957.2,7.8,23
+72,Male,186.2,75,1,Normal weight,Black,Widowed,2125.2,7.2,21.6
+31,Female,182.2,62.9,4,Normal weight,Asian,Divorced,1965.4,9.7,19
+56,Male,177.4,79.4,4,Overweight,Other,Single,1665.9,9.4,25.2
+44,Male,179.4,52.5,3,Underweight,Hispanic,Single,1500,10,16.3
+26,Male,178.5,68.9,2,Normal weight,Other,Married,1894.8,7.4,21.6
+32,Female,166.8,84.7,4,Obese,Black,Single,1903.4,7.3,30.5
+32,Male,170.5,88.5,1,Obese,White,Single,2227.3,8.9,30.5
+43,Female,155.3,76.4,3,Obese,Hispanic,Widowed,2045.9,6.6,31.7
+59,Female,169.1,64.9,4,Normal weight,Black,Married,2153.3,7.1,22.7
+77,Male,181.8,46.1,2,Underweight,Other,Widowed,2113.9,9.6,13.9
+30,Male,163.4,58.6,2,Normal weight,White,Single,2269.5,8.6,22
+68,Female,180.2,63,3,Normal weight,Other,Divorced,1848.3,8.4,19.4
+49,Male,170.9,59.5,3,Normal weight,White,Single,1746.7,7.2,20.4
+56,Male,156.1,70.9,3,Overweight,Hispanic,Married,2053.9,8.3,29.1
+66,Female,158.9,64.9,3,Overweight,Asian,Divorced,1737,5.5,25.7
+69,Female,179.2,72.6,3,Normal weight,White,Married,2202.7,9,22.6
+78,Male,175.5,88,1,Overweight,White,Single,1697.8,6,28.6
+49,Female,171,63.9,1,Normal weight,Black,Divorced,1695.3,9.2,21.8
+21,Male,167.3,49.3,4,Underweight,Hispanic,Widowed,1968.4,9.5,17.6
+47,Male,172.1,59.5,2,Normal weight,Black,Married,1970.3,7.8,20.1
+54,Male,178.8,78.8,1,Normal weight,White,Married,2166.4,8.6,24.6
+40,Female,184.8,80.2,1,Normal weight,Other,Single,1780.5,6.9,23.5
+56,Male,185.2,76.1,1,Normal weight,Other,Married,1621.7,10,22.2
+62,Male,173.7,89.5,4,Overweight,White,Widowed,2293.4,5.7,29.7
+32,Male,168.3,67.2,3,Normal weight,White,Widowed,2089.7,8.7,23.7
+60,Female,171.5,100.8,4,Obese,Other,Widowed,2633.7,6.6,34.3
+46,Female,175.2,82.3,2,Overweight,Other,Divorced,1821.5,8.3,26.8
+53,Female,175.2,32.1,2,Underweight,Black,Widowed,1500,8.2,10.5
+30,Female,183.1,97,2,Overweight,Black,Widowed,2241.1,8,28.9
+49,Female,191.2,58.5,2,Underweight,Other,Single,2145.9,8.2,16
+24,Male,167.9,54.5,1,Normal weight,White,Widowed,1852.5,8.1,19.3
+76,Female,191.6,77.9,1,Normal weight,White,Married,2096.1,7.9,21.2
+68,Female,181.7,43.9,4,Underweight,Other,Married,1677.7,9.7,13.3
+39,Female,169,59.6,3,Normal weight,Other,Widowed,2134.3,6.1,20.9
+45,Male,185,93.4,2,Overweight,Hispanic,Divorced,2120.1,8,27.3
+19,Female,186.9,78.3,4,Normal weight,Other,Single,2049.6,6.2,22.4
+59,Female,165.4,82.2,1,Obese,Other,Divorced,1838.4,7.2,30
+62,Male,187.3,60.1,1,Underweight,Hispanic,Widowed,1702.1,8.2,17.1
+79,Female,180.8,46.9,3,Underweight,Black,Single,1673,8.3,14.4
+74,Male,193.7,80.6,3,Normal weight,Other,Single,1878.9,7.8,21.5
+70,Male,165.8,84,3,Obese,White,Widowed,1831.3,6.9,30.6
+23,Male,166.5,83.3,4,Obese,White,Married,2227.1,7,30.1
+45,Male,149.7,73.1,1,Obese,Black,Divorced,1970.7,6.7,32.6
+45,Male,175.7,55.5,1,Underweight,White,Divorced,1917.8,6.6,18
+61,Female,173.8,106.6,3,Obese,Black,Single,1883.2,7.3,35.3
+61,Male,164.4,77.2,2,Overweight,Other,Married,1889.1,5.4,28.6
+37,Male,169.2,67.4,3,Normal weight,White,Widowed,2389.7,8.5,23.5
+47,Female,156.9,67.5,4,Overweight,Asian,Married,2160.3,6.6,27.4
+79,Male,182,72.2,3,Normal weight,Black,Divorced,1949.2,7.6,21.8
+28,Female,165.1,86,3,Obese,Black,Widowed,1903,7.1,31.6
+75,Female,200.9,72.8,4,Underweight,Other,Widowed,1723.4,9,18
+72,Female,168.2,82.9,3,Overweight,Hispanic,Widowed,1889.7,5.6,29.3
+45,Male,162.4,72.3,1,Overweight,White,Married,2140.1,5.9,27.4
+42,Male,165.9,68.3,2,Normal weight,Other,Widowed,2405.4,7.4,24.8
+56,Male,155.9,79.6,3,Obese,Black,Widowed,2469.4,7.8,32.8
+79,Female,174.8,79,4,Overweight,Other,Married,2051.5,7.1,25.9
+50,Male,165.8,67.5,2,Normal weight,Black,Single,1908.7,8.7,24.5
+18,Male,181.3,58.8,4,Underweight,Black,Single,2140.6,7.8,17.9
+74,Male,167.3,75.1,2,Overweight,Hispanic,Single,2280.4,7.3,26.9
+44,Female,183.8,71.2,2,Normal weight,Asian,Single,1882.7,9.3,21.1
+79,Female,177.6,61.7,3,Normal weight,Hispanic,Single,2249.5,9,19.6
+74,Male,170.3,57.4,1,Normal weight,Asian,Widowed,1989.4,7.4,19.8
+69,Male,185.8,76.2,3,Normal weight,Asian,Single,1784.2,7.3,22.1
+30,Male,179.5,78.3,4,Normal weight,Asian,Divorced,1788.1,8.1,24.3
+58,Male,199.5,64.6,4,Underweight,Other,Single,1682.8,10,16.2
+20,Female,165.9,61.3,2,Normal weight,Asian,Divorced,2033.9,7.1,22.3
+56,Female,170.8,57.5,2,Normal weight,Black,Single,1808.2,7.6,19.7
+23,Female,185.7,75.7,1,Normal weight,Asian,Single,1840.1,7.3,22
+25,Female,154.6,57.9,3,Normal weight,White,Single,1753,6.1,24.3
+44,Male,183.2,103.6,4,Obese,Other,Divorced,2403.7,4.3,30.9
+26,Male,174.4,63.8,2,Normal weight,White,Married,1920.6,7.3,21
+79,Male,161.1,33.6,1,Underweight,Hispanic,Single,1956.2,7.5,13
+54,Female,156.4,69.5,4,Overweight,Black,Divorced,1928.8,7,28.4
+50,Male,163.3,68.9,2,Overweight,Black,Divorced,1798.6,6.9,25.8
+68,Female,147.2,86.7,4,Obese,Hispanic,Single,2036.9,4.9,40
+59,Female,165.1,74.3,1,Overweight,White,Single,2137,7.3,27.3
+61,Male,176.2,57.5,1,Normal weight,Hispanic,Divorced,1817,7.8,18.5
+41,Male,165.2,65.7,4,Normal weight,Other,Divorced,1832.4,7.4,24.1
+32,Male,183.9,74.9,3,Normal weight,Other,Married,2096.3,6.2,22.2
+76,Female,186.6,37.5,4,Underweight,Asian,Married,1721.1,9.3,10.8
+71,Male,182.8,90.1,2,Overweight,Other,Single,1862.1,7.3,27
+49,Female,172.3,57.5,3,Normal weight,Other,Single,1534.5,7.7,19.4
+49,Male,146.8,91.3,2,Obese,Asian,Widowed,2533.5,5.1,42.4
+41,Female,163,75.9,4,Overweight,White,Divorced,1643.1,7.1,28.6
+58,Female,168.6,79.4,3,Overweight,Asian,Single,1788.1,6.4,28
+69,Male,161.1,87.2,2,Obese,Hispanic,Married,2368.3,5.9,33.6
+66,Female,168.6,78.6,4,Overweight,Black,Single,2262.7,7.8,27.6
+79,Female,186.1,80.1,4,Normal weight,Other,Widowed,1879.9,6.6,23.1
+66,Male,153.5,67.5,3,Overweight,White,Single,2144.2,9.1,28.6
+75,Female,188.1,75.6,4,Normal weight,Hispanic,Married,1828.6,6,21.4
+69,Male,178.8,61.2,1,Normal weight,Asian,Divorced,2023.3,8.8,19.1
+29,Female,172.7,64.8,2,Normal weight,White,Divorced,2032.9,7.1,21.7
+79,Male,162.9,99.5,2,Obese,Black,Married,2514.2,6.5,37.5
+56,Male,161.3,57.9,4,Normal weight,Asian,Widowed,2090.3,8.5,22.3
+19,Female,153.7,72.3,4,Obese,Asian,Single,2123.3,8.2,30.6
+20,Female,187.2,71.7,1,Normal weight,White,Married,1746.3,9.1,20.5
+66,Female,185.4,65.3,3,Normal weight,Black,Single,1901.6,7.6,19
+54,Female,155.9,77.7,4,Obese,White,Married,2053.1,5.8,32
+66,Female,164.5,78.8,4,Overweight,Black,Married,2044.5,7,29.1
+73,Male,174.3,56.1,4,Underweight,Black,Single,1933.6,9.3,18.5
+34,Female,167,71.5,4,Overweight,Black,Married,2066.9,8.1,25.6
+76,Male,150.8,53.8,2,Normal weight,Other,Single,1630.7,7.1,23.6
+66,Male,163.4,81.8,4,Obese,Hispanic,Divorced,2177.3,7.2,30.6
+19,Female,189.5,72.6,2,Normal weight,Hispanic,Married,1852.4,7.8,20.2
+19,Male,164.1,71.2,4,Overweight,Other,Divorced,1967.1,8.2,26.5
+45,Male,168.4,79.9,3,Overweight,Hispanic,Single,1574.5,8.4,28.2
+71,Male,158.5,65.9,1,Overweight,White,Widowed,1734.6,7.2,26.2
+40,Male,175.9,83.7,3,Overweight,Black,Single,2084.7,8.1,27.1
+54,Female,171.2,55.8,4,Normal weight,White,Divorced,1993.9,8.3,19
+49,Male,162.6,91.2,4,Obese,Black,Married,2279.8,7.4,34.5
+50,Female,157,61.7,4,Overweight,Asian,Married,2037,6.9,25.1
+18,Female,184,44.6,3,Underweight,Black,Married,1684.7,9,13.2
+36,Male,153.9,65.1,4,Overweight,Asian,Divorced,2065.1,6.3,27.5
+79,Female,175,63.4,3,Normal weight,White,Single,1918.8,7.6,20.7
+19,Female,148.5,65,2,Overweight,Hispanic,Divorced,2137.1,7.2,29.5
+70,Female,177.1,73.5,1,Normal weight,Black,Single,2033.5,6.3,23.4
+61,Male,179.7,86.5,1,Overweight,Asian,Married,2069.4,6.3,26.8
+43,Female,180.9,67.1,3,Normal weight,Other,Married,2191.6,7.8,20.5
+49,Female,168.4,59.6,2,Normal weight,Other,Married,2122.6,8.2,21
+23,Female,185.8,53.1,3,Underweight,Asian,Widowed,1858.6,8.5,15.4
+49,Male,193.1,63,2,Underweight,Black,Widowed,1970.9,8.3,16.9
+72,Female,166.8,41.7,4,Underweight,Other,Married,1500,8.4,15
+21,Male,165.5,59.1,2,Normal weight,Hispanic,Single,1883,7.2,21.6
+72,Male,171.5,88.7,2,Obese,Black,Widowed,1881.7,7.8,30.1
+28,Male,165.2,57.6,2,Normal weight,White,Married,2178.5,8,21.1
+73,Male,163.8,79.4,1,Overweight,Hispanic,Married,2095.6,7.2,29.6
+76,Male,164.6,51.6,2,Normal weight,White,Divorced,1746.1,7.1,19
+34,Male,187.2,96.6,4,Overweight,Hispanic,Widowed,2134.8,5.4,27.6
+55,Female,177.7,97.6,4,Obese,Other,Divorced,2480.9,6,30.9
+41,Male,165.2,78.9,4,Overweight,Hispanic,Married,1964.3,6.7,28.9
+22,Female,145.4,99.9,2,Obese,Black,Divorced,2362.2,4.9,47.2
+69,Female,154.6,75.3,3,Obese,Black,Married,2028.3,6.8,31.5
+51,Male,175,81.5,3,Overweight,Hispanic,Divorced,1917.8,6.9,26.6
+23,Female,148.8,88.9,4,Obese,Asian,Single,2484,5,40.2
+39,Female,172.9,72.7,1,Normal weight,Other,Single,1836.6,6.7,24.3
+28,Female,159.3,46.7,3,Underweight,Black,Divorced,1851.9,7.3,18.4
+65,Female,170.9,81.8,2,Overweight,Asian,Widowed,1849.2,6.8,28
+33,Male,170.6,62.9,3,Normal weight,Asian,Single,1986.6,8.3,21.6
+50,Female,171.2,64,4,Normal weight,Asian,Widowed,1897.9,7.6,21.8
+26,Male,166.1,74.5,1,Overweight,White,Married,1783.4,6.5,27
+77,Female,165.7,78.5,3,Overweight,White,Married,1943.2,7.1,28.6
+76,Female,162.8,72.3,3,Overweight,Asian,Widowed,1851.1,8.1,27.3
+23,Male,174.8,79.5,4,Overweight,Hispanic,Divorced,1761.9,6.4,26
+33,Female,178.1,59.4,1,Normal weight,Hispanic,Divorced,1702.2,10,18.7
+46,Female,157.8,69.4,1,Overweight,Other,Single,1624.6,7.3,27.9
+20,Female,169.5,82.7,4,Overweight,Black,Widowed,2349.7,7.9,28.8
+37,Male,172,96.6,2,Obese,Black,Divorced,2053.9,7.9,32.7
+77,Female,171.8,101.9,3,Obese,Hispanic,Divorced,2221.4,5.9,34.5
+76,Male,171.7,76.5,2,Overweight,Black,Widowed,2027.6,7,26
+53,Female,166,82.6,3,Overweight,White,Divorced,2159.6,6.6,30
+36,Male,172.8,99.7,3,Obese,Hispanic,Single,2172.4,6.7,33.4
+43,Male,176.2,59.9,2,Normal weight,Asian,Married,2037,8.1,19.3
+20,Female,171.4,79.4,4,Overweight,White,Divorced,2254.2,7,27
+36,Female,175.1,81.5,4,Overweight,Other,Widowed,1898.2,6.7,26.6
+37,Male,179.9,91.7,3,Overweight,Asian,Single,1767.1,7.6,28.3
+49,Male,151.5,52.9,4,Normal weight,Hispanic,Widowed,2010.1,7.2,23.1
+24,Female,179.4,55.9,3,Underweight,Black,Single,1823.4,9.3,17.4
+69,Male,173.4,70.3,4,Normal weight,Other,Married,1806.1,7.5,23.4
+58,Female,158.9,75.7,3,Overweight,Other,Married,2117.7,6.8,30
+50,Female,178,86.8,4,Overweight,Black,Single,2233.2,7.3,27.4
+57,Female,166,77.8,1,Overweight,Black,Married,2075,6.9,28.2
+56,Female,167.4,67.7,2,Normal weight,Black,Single,1738.6,7.7,24.2
+35,Male,164.9,76.2,1,Overweight,White,Divorced,2124.2,7.7,28
+57,Female,173,74.5,2,Normal weight,Asian,Divorced,1768.7,7.9,24.9
+18,Male,162.1,96.2,2,Obese,Hispanic,Married,2286.4,5.8,36.6
+28,Female,179,72.5,3,Normal weight,Asian,Widowed,1993.1,6.6,22.6
+45,Male,168.6,64.3,2,Normal weight,Asian,Single,2254.5,7.8,22.6
+74,Female,166.4,76.7,1,Overweight,Asian,Widowed,2016.6,6.6,27.7
+42,Male,177.5,73,1,Normal weight,Hispanic,Married,2109.9,7.1,23.2
+67,Male,166.8,46.4,4,Underweight,Hispanic,Single,2010.9,8.2,16.7
+40,Female,179.5,69.8,1,Normal weight,Asian,Widowed,1891.4,6.4,21.7
+48,Female,179.8,68.5,4,Normal weight,Hispanic,Single,1629.9,7.1,21.2
+47,Female,156.7,61.8,2,Overweight,Black,Single,1996.9,7,25.2
+59,Female,181.1,85.5,1,Overweight,Asian,Divorced,2081.6,8.1,26.1
+52,Male,155.4,58.2,2,Normal weight,Hispanic,Single,2060.6,6.6,24.1
+24,Female,181.7,76.8,1,Normal weight,Black,Married,2000.2,9.1,23.3
+77,Male,190.3,67.8,1,Normal weight,White,Married,1832,8.8,18.7
+33,Male,178.7,71.6,4,Normal weight,Asian,Single,2166.4,8.7,22.4
+43,Female,148.4,76.2,2,Obese,Hispanic,Divorced,2185.5,7.3,34.6
+65,Male,180.6,50.4,1,Underweight,White,Single,1790.7,9.5,15.4
+74,Male,192.5,72.9,3,Normal weight,White,Married,1984.9,9.1,19.7
+69,Male,167,104.3,2,Obese,Hispanic,Divorced,2327,4.5,37.4
+77,Male,169.7,46.6,2,Underweight,Hispanic,Single,2176.1,7.9,16.2
+66,Female,158.1,69.1,2,Overweight,Other,Single,2311.9,7.8,27.7
+19,Female,173.1,86.8,4,Overweight,White,Married,2276.1,8,29
+18,Female,182.7,74.5,3,Normal weight,Hispanic,Married,1999,8.5,22.3
+65,Female,177,80.3,2,Overweight,Other,Divorced,1886,7.5,25.6
+79,Male,201.4,34.4,1,Underweight,Asian,Married,1500,8.7,8.5
+29,Male,170.3,79,1,Overweight,Black,Divorced,1857.8,9.1,27.2
+22,Female,153.7,58.6,4,Normal weight,Other,Married,1823.3,8.4,24.8
+54,Female,171.7,74.6,1,Overweight,Hispanic,Widowed,2106.8,8,25.3
+49,Female,145.8,69.6,2,Obese,Hispanic,Widowed,2041.2,6.1,32.7
+76,Male,164.7,104.2,1,Obese,White,Widowed,2233.1,6,38.4
+72,Female,186.2,78.2,2,Normal weight,Asian,Single,2215.2,7.6,22.5
+26,Female,173.3,68.3,1,Normal weight,Asian,Single,2009.7,7.8,22.8
+58,Female,171.8,47.4,3,Underweight,Asian,Single,1823.1,7.8,16
+52,Male,188.2,71.8,4,Normal weight,Other,Married,1749.4,8,20.3
+36,Male,167.3,82.3,4,Overweight,Black,Single,1948.3,9,29.4
+65,Male,182.6,68.8,3,Normal weight,Other,Widowed,1760.7,8.3,20.6
+33,Male,171.3,62.4,3,Normal weight,Black,Divorced,1891.4,5.3,21.3
+20,Male,173.8,61.4,4,Normal weight,White,Married,1775.4,8.3,20.3
+37,Male,157.8,78,3,Obese,Hispanic,Widowed,2158,8.1,31.3
+41,Male,165.2,81.4,2,Overweight,Black,Divorced,2315.3,7.1,29.8
+71,Male,156,90.4,1,Obese,Black,Widowed,2303.1,6,37.1
+73,Female,169,55.1,4,Normal weight,Asian,Divorced,1773.8,7.8,19.3
+50,Female,173.9,77.9,3,Overweight,Other,Married,1800,9,25.8
+41,Male,158.9,68.2,2,Overweight,White,Divorced,2080.2,7.9,27
+69,Male,190.5,68.6,4,Normal weight,Asian,Widowed,1895,7.8,18.9
+28,Female,172.8,76,3,Overweight,Asian,Divorced,1824.1,8.6,25.5
+66,Male,170.6,76.1,4,Overweight,Black,Divorced,2100.5,6.9,26.2
+25,Male,177.7,77.9,3,Normal weight,Other,Divorced,2125.7,6.5,24.7
+53,Male,161.7,54.1,4,Normal weight,White,Married,1858.8,8.7,20.7
+55,Female,171.6,58.8,2,Normal weight,Hispanic,Married,1961.4,8.3,19.9
+57,Female,162.8,92.3,2,Obese,Hispanic,Divorced,2059,6.9,34.8
+37,Female,185.6,66.7,1,Normal weight,White,Widowed,2340.9,10,19.4
+79,Female,159.4,74.6,4,Overweight,Asian,Single,1748.6,6.5,29.4
+52,Female,170.6,85.8,1,Overweight,Hispanic,Married,2207.1,6.7,29.5
+65,Male,173.3,77,4,Overweight,Hispanic,Married,2025.8,8.4,25.6
+79,Female,173.9,78.2,3,Overweight,White,Married,1735.9,8.4,25.8
+42,Male,164.2,83.4,3,Obese,Other,Widowed,2050.3,4.6,30.9
+52,Male,161,38.3,1,Underweight,Asian,Single,1652.3,8.3,14.7
+42,Female,164.3,62.7,4,Normal weight,Hispanic,Single,1864.8,7.3,23.2
+46,Female,175.3,77,1,Overweight,Black,Single,1867.1,8.8,25.1
+35,Male,168.6,90.8,2,Obese,Asian,Single,2072.9,7,32
+63,Male,178,71,1,Normal weight,Black,Married,1982.6,6.7,22.4
+35,Male,174.8,57.3,1,Normal weight,Asian,Married,1679.5,8.2,18.8
+19,Female,147.2,57.7,3,Overweight,Asian,Widowed,2096.8,7.1,26.6
+71,Female,172.5,83.3,1,Overweight,White,Married,1877.4,5.8,28
+52,Female,192.5,66.7,4,Underweight,Other,Married,2124.3,7.6,18
+33,Female,183.3,69.9,3,Normal weight,Hispanic,Divorced,1887.3,6.2,20.8
+78,Female,174.2,79.2,1,Overweight,Hispanic,Married,1827.8,8.7,26.1
+58,Male,159.4,26.5,2,Underweight,Other,Married,1655.6,7.7,10.4
+53,Female,174.8,100,1,Obese,Asian,Single,2302.4,5.8,32.7
+50,Male,177.4,59,1,Normal weight,Black,Divorced,1941.7,8.6,18.8
+21,Male,167.5,73.6,1,Overweight,Hispanic,Divorced,1956.3,8.1,26.3
+50,Male,173.2,44.4,3,Underweight,Other,Widowed,2137.4,8.8,14.8
+31,Female,185.1,63.7,4,Normal weight,Black,Single,1933,8.5,18.6
+38,Female,161.4,88.7,2,Obese,Asian,Married,2133.8,7.7,34
+65,Female,159.4,41.3,1,Underweight,Asian,Divorced,1710.2,8.3,16.2
+37,Male,176.9,86.9,4,Overweight,White,Married,2292.8,7.6,27.8
+73,Male,174.6,65.9,4,Normal weight,Asian,Single,2042.1,8.2,21.6
+25,Male,180.3,77.3,3,Normal weight,Black,Single,1671.2,9.4,23.8
+24,Male,175.7,79.9,2,Overweight,Asian,Divorced,2223.2,7.8,25.9
+20,Male,164.3,76.6,3,Overweight,Asian,Single,2225.4,6.3,28.4
+34,Male,174.3,57,4,Normal weight,White,Single,1943.5,8.3,18.8
+50,Female,158.6,64.5,4,Overweight,Black,Married,1714.4,7.6,25.7
+65,Female,167.5,48.1,4,Underweight,Black,Married,1797.6,8.3,17.1
+29,Female,175,77.4,3,Overweight,Black,Married,1943.6,6.8,25.3
+76,Female,166.4,95.5,2,Obese,Hispanic,Divorced,2225.6,7,34.5
+68,Male,194.7,42.6,1,Underweight,White,Divorced,1500,7.8,11.2
+39,Male,151.1,58.6,3,Overweight,Other,Married,2208.2,7.4,25.7
+72,Female,164.5,67.3,4,Normal weight,Other,Divorced,1683.5,7.4,24.9
+39,Male,160.6,72.6,3,Overweight,Asian,Widowed,2004.8,7.8,28.1
+63,Female,163,83.2,4,Obese,Asian,Single,1909.1,6.3,31.3
+47,Female,163.6,67.7,1,Overweight,Other,Single,1908.8,8.9,25.3
+55,Female,156.7,65.3,1,Overweight,White,Divorced,1854.8,7.3,26.6
+55,Male,177.5,86.5,2,Overweight,Hispanic,Married,2086.6,7.2,27.5
+62,Female,164.5,79.9,4,Overweight,Black,Divorced,2057.8,8,29.5
+68,Female,171.6,78.1,2,Overweight,Other,Married,2012.5,8.5,26.5
+71,Female,165.7,71.7,2,Overweight,Hispanic,Single,2149.7,7.7,26.1
+25,Male,163.1,84.7,1,Obese,Other,Widowed,2336.5,8,31.9
+44,Male,186.7,60.2,3,Underweight,White,Single,2062.4,8.3,17.3
+44,Female,179.2,58.1,3,Underweight,Black,Married,1957.2,10,18.1
+51,Male,151.3,81.2,2,Obese,Asian,Divorced,2159.8,8.1,35.5
+38,Male,150.3,45.6,1,Normal weight,White,Divorced,1728.3,7.9,20.2
+47,Male,180.4,71.4,4,Normal weight,White,Married,1703.6,8.2,21.9
+50,Male,164.8,65.3,3,Normal weight,Asian,Widowed,2243.2,7.2,24
+45,Male,153.5,48.9,2,Normal weight,Black,Single,1935.5,7.8,20.8
+64,Male,180.5,56,3,Underweight,Hispanic,Single,2227.7,6.7,17.2
+50,Male,171.7,68.4,3,Normal weight,Other,Divorced,2118.3,6.7,23.2
+22,Male,172.5,85.5,4,Overweight,Asian,Married,2196.3,6.8,28.7
+77,Male,178.1,60.2,1,Normal weight,Hispanic,Single,1849.7,8.5,19
+78,Male,156.9,88.2,4,Obese,Other,Married,2397.2,6.2,35.8
+65,Female,153.7,70.9,1,Obese,Asian,Married,2302.1,6.1,30
+36,Female,185.8,89.7,3,Overweight,White,Divorced,1598.5,8.7,26
+21,Male,155.6,60.9,2,Overweight,Other,Married,1992.1,7,25.2
+52,Female,157.8,69.3,4,Overweight,Black,Married,2028,8.4,27.8
+66,Female,159.8,75.5,1,Overweight,Hispanic,Married,2181.4,6.9,29.6
+34,Male,190.8,67.3,3,Underweight,Black,Divorced,2257.3,7.5,18.5
+61,Male,174.9,84.3,1,Overweight,White,Widowed,2437,6.1,27.5
+45,Male,179.7,36.9,1,Underweight,Other,Married,1856.1,9.3,11.4
+47,Female,172,106.3,1,Obese,Black,Widowed,2294.9,7.4,36
+46,Female,164,82.9,3,Obese,Other,Widowed,2645.2,7,30.8
+63,Male,176.3,67.4,2,Normal weight,White,Widowed,2078.6,9.9,21.7
+70,Male,154.4,61.7,2,Overweight,White,Married,1755.6,9.3,25.9
+23,Male,159,57,2,Normal weight,Black,Single,1776.9,8.4,22.5
+52,Female,177.3,79.7,1,Overweight,Hispanic,Married,2004.1,7.5,25.3
+77,Female,156.4,84.9,3,Obese,Black,Divorced,2394,7.1,34.7
+58,Female,168.1,67.6,1,Normal weight,White,Divorced,1860.4,7.1,23.9
+54,Female,168.6,86.6,2,Obese,White,Divorced,2218.3,7.2,30.5
+41,Male,164.7,56.4,2,Normal weight,White,Widowed,1648.2,9.6,20.8
+46,Male,150.5,53.7,3,Normal weight,Hispanic,Single,2033.2,7,23.7
+66,Male,163.7,97.2,1,Obese,White,Divorced,2171.3,6.2,36.3
+63,Male,161.8,78.9,4,Obese,Asian,Divorced,2364.9,6.7,30.1
+70,Female,171.6,91,4,Obese,Black,Divorced,2456.3,6.6,30.9
+48,Female,171.1,57.2,2,Normal weight,White,Divorced,1920.8,7.5,19.5
+52,Male,173.8,56.1,3,Normal weight,White,Married,1934.8,7.2,18.6
+77,Male,163.2,64.6,1,Normal weight,Other,Divorced,1974.6,6.2,24.3
+50,Female,175.2,57.6,1,Normal weight,Other,Widowed,2066.7,8.6,18.8
+69,Male,154.4,80.6,2,Obese,Hispanic,Single,2214.5,7.4,33.8
+78,Female,151.8,58.7,2,Overweight,Hispanic,Divorced,1900.3,7.9,25.5
+38,Male,146.6,52.4,1,Normal weight,Hispanic,Married,2048.8,7.9,24.4
+49,Male,165,72.1,1,Overweight,Other,Widowed,1885.3,6.2,26.5
+40,Male,162.5,50.7,2,Normal weight,Hispanic,Single,1693.7,9.2,19.2
+50,Male,177.9,43,1,Underweight,White,Divorced,1814.4,9,13.6
+20,Male,163.5,72,4,Overweight,Asian,Single,2160.5,8.6,26.9
+35,Male,172.7,43.8,2,Underweight,Other,Widowed,1881.8,8.3,14.7
+42,Male,178.1,81.6,1,Overweight,Hispanic,Divorced,1943.1,6.1,25.7
+59,Female,163.1,49.1,2,Underweight,Black,Married,2219.1,9.4,18.4
+48,Female,173,36.4,3,Underweight,White,Single,1573.5,7.7,12.2
+71,Female,180,65.6,2,Normal weight,Hispanic,Widowed,1897.4,7.7,20.2
+75,Female,157.6,72.2,2,Overweight,White,Married,1992,8.4,29
+20,Female,170.2,77.4,3,Overweight,Asian,Widowed,2129.6,7.2,26.7
+57,Male,163.2,72.6,4,Overweight,White,Divorced,2029.6,6.8,27.3
+63,Male,158.3,54.1,1,Normal weight,Asian,Widowed,1931.4,8.6,21.6
+41,Female,154.6,80.7,3,Obese,Asian,Divorced,2272.9,5.8,33.7
+67,Male,158.1,84.4,2,Obese,Black,Married,1932.4,6,33.8
+49,Female,170.6,51.9,1,Underweight,Asian,Married,1817.3,9,17.8
+64,Female,153.9,67.3,3,Overweight,Hispanic,Widowed,2410,7.2,28.4
+39,Male,164.5,65.9,1,Normal weight,Black,Widowed,1835.1,7.5,24.3
+40,Male,178.1,73.3,1,Normal weight,White,Single,2156.5,5.5,23.1
+19,Male,174.5,66.9,3,Normal weight,Other,Divorced,1733.3,8.6,22
+44,Female,164.7,69,1,Overweight,Asian,Married,2162.4,8.1,25.4
+59,Male,186.9,79.6,4,Normal weight,Hispanic,Divorced,2016.2,5.9,22.8
+19,Female,188.9,53.3,3,Underweight,Other,Divorced,1883.5,8.3,14.9
+43,Female,170.3,81.1,4,Overweight,Other,Single,2060.6,7.1,28
+34,Female,145.3,87.1,2,Obese,Hispanic,Divorced,2473.4,4,41.3
+57,Male,178.9,94.5,1,Overweight,White,Divorced,2402.6,5.9,29.5
+50,Male,147.1,37.8,2,Underweight,White,Married,1766.6,8.1,17.5
+26,Female,184.8,67.3,2,Normal weight,Hispanic,Divorced,1810,7.4,19.7
+60,Male,180.8,40.5,1,Underweight,Asian,Widowed,1887.3,8.9,12.4
+71,Male,187.7,33.5,3,Underweight,Other,Divorced,1647.7,7.4,9.5
+65,Male,172.6,72.2,1,Normal weight,Black,Widowed,2292.7,6.6,24.2
+56,Female,166.4,64,2,Normal weight,White,Divorced,2019.4,9.2,23.1
+46,Female,165.5,74.5,2,Overweight,Hispanic,Divorced,2108.4,7.5,27.2
+59,Male,164.5,77.3,3,Overweight,Hispanic,Single,1857.3,5.8,28.5
+72,Female,179.8,88.7,1,Overweight,Hispanic,Single,2333.9,6.1,27.4
+43,Male,177.1,70.8,2,Normal weight,Asian,Widowed,2191.3,7.3,22.6
+52,Male,171.2,113.9,4,Obese,Black,Widowed,1941.3,5.3,38.8
+67,Male,162.8,74.6,2,Overweight,Black,Married,2428.8,5.8,28.2
+42,Male,196.3,97.6,2,Overweight,Asian,Single,1899.8,8.5,25.3
+41,Female,179.1,35,3,Underweight,Other,Divorced,1551.1,9.2,10.9
+30,Female,154,90.2,4,Obese,Hispanic,Widowed,2109.1,6.9,38
+77,Female,164.8,67.3,2,Normal weight,Asian,Single,1730.5,6.7,24.8
+75,Male,179.3,40.8,2,Underweight,Asian,Divorced,1911.3,8.6,12.7
+24,Male,162,76.3,4,Overweight,White,Divorced,1806.2,5.3,29.1
+74,Male,173.5,65.5,1,Normal weight,Other,Divorced,1720.7,7.9,21.7
+53,Female,179.5,78.7,1,Normal weight,Other,Married,1791.1,8,24.4
+62,Male,136.1,85.2,2,Obese,White,Single,2526.7,6.5,46
+37,Female,168.9,47.7,2,Underweight,White,Single,1745,8,16.7
+18,Female,169.3,85.2,1,Overweight,White,Divorced,2093.9,6.2,29.7
+25,Female,165.9,70.1,3,Overweight,Other,Single,1884.7,7.3,25.5
+63,Female,173,90.3,4,Obese,Other,Married,2195.4,8.1,30.2
+33,Female,176.6,66.9,4,Normal weight,Hispanic,Divorced,1813.8,8,21.5
+31,Female,171.4,62.9,3,Normal weight,Black,Widowed,2265.9,7.9,21.4
+29,Male,166.3,70.4,3,Overweight,Black,Married,2014.5,7.5,25.5
+68,Male,176.3,71.5,3,Normal weight,Hispanic,Single,1842.1,7.7,23
+40,Female,170.5,60.1,3,Normal weight,Black,Divorced,2189.6,7.9,20.7
+32,Female,167.7,62.6,3,Normal weight,White,Married,1951.3,7.8,22.2
+45,Male,156.9,51.6,3,Normal weight,Asian,Married,1718.8,6.5,21
+51,Female,154.4,63.5,4,Overweight,Other,Widowed,1841.6,8.4,26.6
+19,Female,156.7,80.1,3,Obese,Asian,Single,2251,7,32.6
+49,Male,172.8,67.9,1,Normal weight,White,Single,1719.3,8.4,22.8
+40,Female,169.2,85.1,3,Overweight,Black,Widowed,2406,8.9,29.7
+39,Female,155.2,67.2,3,Overweight,Hispanic,Divorced,1877.3,7.4,27.9
+68,Female,176.5,48.5,4,Underweight,Hispanic,Widowed,1511.2,7.8,15.6
+42,Male,183.7,79,4,Normal weight,White,Married,1654.8,7.4,23.4
+75,Male,164,59.9,3,Normal weight,Other,Single,1746.5,7.4,22.3
+79,Male,152.6,66.5,4,Overweight,White,Widowed,2182.7,5.3,28.6
+78,Female,162.9,88.6,2,Obese,Hispanic,Widowed,1780.9,6.2,33.4
+39,Female,178.5,52.6,4,Underweight,Asian,Single,1732.3,6.3,16.5
+75,Male,175.5,72.5,4,Normal weight,Hispanic,Widowed,1956.5,8.4,23.5
+75,Female,160.8,69.4,4,Overweight,Other,Divorced,1753,5.7,26.8
+39,Female,185.2,80.5,4,Normal weight,Other,Divorced,2007.3,8.4,23.5
+66,Female,183.5,82.8,1,Normal weight,Hispanic,Widowed,1500,7.3,24.6
+69,Female,162.7,74,1,Overweight,Asian,Single,1723.6,7.2,27.9
+59,Female,162.6,64.6,1,Normal weight,Asian,Widowed,2297.4,8.4,24.4
+23,Male,164.1,77.1,3,Overweight,Black,Married,2409.1,8.7,28.6
+32,Female,164.9,90,3,Obese,Other,Single,2370.6,6.5,33.1
+71,Male,179.5,69.6,2,Normal weight,Other,Divorced,2440.1,7.5,21.6
+60,Female,174.3,66,1,Normal weight,White,Single,1822.3,8.3,21.7
+77,Male,178.8,75.8,3,Normal weight,Asian,Divorced,2323.3,8.2,23.7
+54,Female,176.7,70.6,4,Normal weight,Black,Married,1723.6,8.2,22.6
+50,Male,187.1,49.9,4,Underweight,Asian,Widowed,1967,9.9,14.3
+25,Female,159.4,73.6,1,Overweight,Hispanic,Single,1740.6,8.9,29
+70,Male,173.8,49.8,2,Underweight,Black,Divorced,1937.4,8.2,16.5
+77,Female,148.3,75.6,2,Obese,Other,Widowed,1758.6,5.6,34.4
+61,Male,156.8,58,4,Normal weight,Asian,Widowed,1641.1,9.1,23.6
+61,Female,169.3,70.6,2,Normal weight,Asian,Divorced,1758.2,7.9,24.6
+22,Male,174.2,75.9,1,Overweight,Black,Divorced,1852.2,6.8,25
+56,Male,169,106.8,4,Obese,Black,Married,2286.6,5,37.4
+21,Female,164.3,81.1,3,Obese,Hispanic,Widowed,2063,7.3,30
+23,Female,166.1,90.5,3,Obese,Black,Married,2422.5,5.9,32.8
+62,Male,183.7,98.1,2,Overweight,White,Widowed,2378.9,6.9,29.1
+49,Female,166.2,77.3,4,Overweight,Hispanic,Single,2232.4,5.5,28
+69,Male,187.5,74.3,4,Normal weight,White,Married,1840.6,8.5,21.1
+47,Male,177.9,54,3,Underweight,Other,Married,1843,10,17.1
+64,Male,174.6,68.3,4,Normal weight,Black,Widowed,1919,7.8,22.4
+52,Female,158.1,59.2,4,Normal weight,Other,Married,2173.7,7.1,23.7
+72,Male,179.4,64,4,Normal weight,Black,Married,1883,8.2,19.9
+57,Male,165.1,98.1,2,Obese,Black,Divorced,2069.3,8,36
+69,Female,158.1,71.7,4,Overweight,Asian,Divorced,2184.5,6.7,28.7
+33,Female,175.1,56.9,1,Normal weight,Black,Single,1500,6.8,18.5
+30,Female,156.1,90.6,2,Obese,Asian,Married,2262.1,5.8,37.2
+67,Female,162.4,84.3,4,Obese,Asian,Divorced,2002.2,5.6,32
+77,Male,169.9,85.1,4,Overweight,White,Single,2019.7,6.3,29.5
+59,Male,192.2,39.9,1,Underweight,White,Married,1836.1,8.7,10.8
+47,Male,163.1,99.2,2,Obese,Other,Single,2292.3,7.7,37.3
+36,Male,165.4,61.6,3,Normal weight,White,Married,2075.4,8.4,22.5
+34,Female,177.3,81.7,3,Overweight,Other,Divorced,2025,6.9,26
+73,Male,157.6,107.9,2,Obese,White,Widowed,2200.5,5.4,43.4
+36,Male,174.4,102.3,4,Obese,Black,Divorced,1969.1,6.7,33.6
+45,Female,182.1,55.3,4,Underweight,White,Divorced,1824.3,7.8,16.7
+75,Male,166.9,48.3,3,Underweight,Asian,Widowed,2251.3,8,17.3
+72,Male,180.3,91.5,3,Overweight,Asian,Single,1723.4,6.3,28.1
+43,Male,172.9,72.1,3,Normal weight,Hispanic,Single,2016.2,7.5,24.1
+54,Male,162.7,62.5,1,Normal weight,Black,Married,1867.7,8.6,23.6
+43,Male,168,79.3,3,Overweight,Hispanic,Widowed,1915.6,7.8,28.1
+70,Male,166.2,67.6,1,Normal weight,Asian,Single,2100.4,7.8,24.5
+79,Female,169.1,80.5,2,Overweight,White,Married,2014.9,8.6,28.2
+40,Female,171.5,71,4,Normal weight,Asian,Divorced,2255.8,9.2,24.1
+26,Male,175.9,80.8,3,Overweight,Hispanic,Married,1866.9,4.4,26.1
+29,Male,175.1,56.6,4,Underweight,Black,Single,1520.5,8.8,18.5
+70,Female,145.7,91.4,4,Obese,Other,Divorced,2118.7,5.7,43
+18,Male,169,80.5,3,Overweight,Black,Single,1819.2,5.6,28.2
+75,Male,154.9,79.7,3,Obese,White,Single,2310.5,9.2,33.2
+75,Male,167.2,53.2,2,Normal weight,Black,Widowed,1904.2,8.2,19
+18,Female,168.8,95.5,1,Obese,Asian,Divorced,2291.7,6,33.5
+64,Male,179.8,69.8,1,Normal weight,Asian,Single,1983,8.4,21.6
+51,Female,169.7,80.9,4,Overweight,Black,Widowed,2249.9,8.4,28.1
+49,Male,172.6,65.2,3,Normal weight,Black,Divorced,2175.5,7.6,21.9
+79,Female,177.9,73.9,2,Normal weight,Hispanic,Single,2157.3,7.5,23.3
+71,Female,182.3,74.5,2,Normal weight,Other,Widowed,1862.5,8.6,22.4
+65,Male,168.8,27.7,2,Underweight,Black,Widowed,1519.9,9.2,9.7
+42,Female,170.9,78.7,2,Overweight,Asian,Married,2146.9,7.9,26.9
+57,Male,170.1,99.5,2,Obese,White,Widowed,2372.6,6.4,34.4
+62,Female,164.6,78.1,1,Overweight,Other,Widowed,1883,6.4,28.8
+70,Male,162.3,55.6,1,Normal weight,Asian,Widowed,2087.8,7.1,21.1
+18,Male,147.3,79.7,1,Obese,Black,Widowed,2096.4,7.6,36.8
+33,Female,159.2,85.9,3,Obese,White,Single,2125.9,6.8,33.9
+78,Male,152.2,77.7,4,Obese,Hispanic,Married,2068.7,8.2,33.5
+56,Male,182.6,68.9,2,Normal weight,Hispanic,Divorced,1831.6,9.6,20.7
+22,Female,171.9,66.4,3,Normal weight,Asian,Single,1500,7.1,22.5
+39,Male,168.7,66.3,2,Normal weight,White,Divorced,2016.1,7.6,23.3
+46,Male,162.8,80.5,1,Obese,Black,Widowed,1920.7,8.5,30.4
+72,Female,170.3,48.9,3,Underweight,Asian,Married,1711.8,8.2,16.9
+20,Female,161.5,64.4,1,Normal weight,White,Married,1773.5,8.1,24.7
+29,Male,171.7,93.9,2,Obese,White,Widowed,2112,6.7,31.8
+43,Male,172.5,94.5,2,Obese,Black,Divorced,2077.7,7.8,31.8
+33,Female,161.4,47.8,4,Underweight,Black,Widowed,2056.2,8.5,18.4
+68,Female,161.2,53,2,Normal weight,Hispanic,Divorced,2050.2,7.8,20.4
+54,Male,179.6,65.9,1,Normal weight,Asian,Widowed,2008.7,8,20.4
+39,Female,169.5,83.4,2,Overweight,Black,Married,1667.5,6.9,29
+74,Male,162.2,42.6,4,Underweight,Black,Divorced,1886.5,8.4,16.2
+46,Male,166.3,69.2,4,Overweight,Other,Married,1612.6,5.5,25
+31,Male,159.9,62.9,1,Normal weight,White,Widowed,2467.4,6.9,24.6
+45,Male,169.3,89.9,3,Obese,Asian,Single,2146.1,7.3,31.4
+22,Male,178.3,44.8,2,Underweight,Black,Divorced,1536.4,8.9,14.1
+64,Female,169.7,71.4,4,Normal weight,Black,Married,1995.6,8,24.8
+66,Female,193.6,64.1,2,Underweight,Hispanic,Married,1878.2,9.3,17.1
+47,Female,174.2,92,2,Obese,Hispanic,Married,2318.4,7,30.3
+63,Female,172.3,79,3,Overweight,Hispanic,Widowed,2265.1,7.2,26.6
+79,Male,160.9,61.2,4,Normal weight,Other,Married,1500,6.4,23.6
+69,Male,167.6,82.8,2,Overweight,Other,Married,2284.1,8.7,29.5
+22,Male,162.2,64.2,4,Normal weight,Hispanic,Divorced,1612.8,7.2,24.4
+29,Male,148.3,85,1,Obese,Hispanic,Widowed,2411.7,6,38.6
+33,Female,179.7,66.4,1,Normal weight,Black,Married,1601,8.6,20.6
+43,Male,164.9,85.8,2,Obese,Other,Divorced,2087.9,6.8,31.6
+43,Male,162.4,76.5,4,Overweight,Black,Single,2120.5,7.3,29
+65,Female,172.1,118.9,2,Obese,Black,Widowed,2751.8,4.4,40.1
+38,Female,175.1,69.2,4,Normal weight,Hispanic,Widowed,1831.7,8.7,22.6
+56,Female,166.8,75.7,4,Overweight,Other,Widowed,2519.8,6.5,27.2
+53,Female,170,62.8,3,Normal weight,Asian,Widowed,1650.2,6.8,21.7
+50,Male,177.5,70,3,Normal weight,Asian,Single,1861.3,8.5,22.2
+79,Male,166.4,29.5,3,Underweight,Black,Single,1578.5,9.9,10.6
+47,Female,173,77,2,Overweight,Black,Divorced,1826.4,7.1,25.7
+54,Male,153.4,90.1,3,Obese,White,Divorced,2366.1,5.6,38.3
+40,Male,157.6,75.9,3,Obese,Asian,Divorced,2210.8,6.8,30.6
+75,Male,176.1,50.3,1,Underweight,Other,Widowed,1500,8.9,16.2
+27,Female,157.1,58,4,Normal weight,Asian,Married,1777.5,9,23.5
+71,Male,172.3,33.5,4,Underweight,Other,Married,1500,9.8,11.3
+22,Female,168.5,84.7,3,Overweight,White,Widowed,2340.5,8.7,29.8
+53,Male,166.4,54.9,4,Normal weight,Black,Widowed,2068.6,6.9,19.8
+51,Male,161.7,69.6,1,Overweight,Hispanic,Widowed,2131.1,6.3,26.6
+69,Male,179.1,67.7,1,Normal weight,Asian,Widowed,2301.4,8.3,21.1
+48,Female,187.3,92.3,3,Overweight,Other,Widowed,2035.5,7.4,26.3
+27,Male,173,71.3,1,Normal weight,Other,Widowed,2041,6.9,23.8
+75,Female,173.2,82.1,4,Overweight,Other,Widowed,1828,6.7,27.4
+36,Female,163.2,78.2,2,Overweight,Hispanic,Divorced,2511.2,8.3,29.4
+75,Female,158,90.4,4,Obese,Asian,Married,2182.1,5.3,36.2
+49,Male,169.6,66.4,2,Normal weight,Asian,Single,1844.3,6.3,23.1
+18,Male,160.3,98,3,Obese,Black,Single,2166.6,4.6,38.2
+73,Male,152.3,40.2,2,Underweight,Black,Single,2292.7,8.3,17.3
+22,Male,178,82.9,1,Overweight,Black,Married,1811.9,8.5,26.1
+62,Female,178.5,57,4,Underweight,Black,Single,1950.8,9.5,17.9
+21,Female,161.4,62.6,2,Normal weight,Black,Widowed,1941.9,8.9,24
+33,Female,172.4,78.5,4,Overweight,Asian,Single,2221.3,7.1,26.4
+41,Male,180,78.4,3,Normal weight,White,Divorced,2157.5,7.7,24.2
+33,Female,172.1,79.1,3,Overweight,White,Divorced,1819.3,7.9,26.7
+72,Male,158.1,49.2,1,Normal weight,White,Married,1500,9,19.7
+19,Female,167.7,91.7,3,Obese,White,Widowed,2521.8,5.5,32.6
+66,Male,183.3,56.5,2,Underweight,Asian,Single,2265.1,8.8,16.8
+45,Male,172.5,58.5,3,Normal weight,White,Divorced,1763.3,8.8,19.7
+49,Female,175.4,79.6,1,Overweight,Black,Divorced,2342.8,8.9,25.9
+44,Female,173.4,65.7,4,Normal weight,Asian,Divorced,2062.2,7.4,21.8
+37,Female,161.4,74.6,4,Overweight,Hispanic,Widowed,2026.6,9,28.6
+41,Female,163.8,37.7,3,Underweight,Hispanic,Single,1926.2,7.9,14
+29,Male,173.4,74.3,2,Normal weight,Asian,Married,1993.3,7.1,24.7
+67,Female,178.2,73.3,1,Normal weight,Hispanic,Widowed,2098.1,9.5,23.1
+52,Female,181,62.4,2,Normal weight,Black,Divorced,1934,8.5,19
+77,Female,161.4,38.9,1,Underweight,Asian,Divorced,1887.1,7.9,14.9
+50,Male,174.3,66.8,3,Normal weight,Hispanic,Single,1907.6,7.5,22
+50,Male,181.9,69.4,1,Normal weight,Asian,Divorced,1980.4,8,21
+78,Female,160.1,64.5,1,Overweight,Hispanic,Divorced,2289.4,7.5,25.2
+68,Male,184.9,42.5,3,Underweight,Other,Widowed,1900.5,8,12.4
+60,Female,186.4,93.9,2,Overweight,White,Single,2132.3,8.5,27
+54,Male,196.3,60.4,3,Underweight,Other,Widowed,1863.3,9.3,15.7
+29,Male,172.3,66.7,1,Normal weight,Hispanic,Single,1946.7,6.4,22.5
+20,Male,172.4,33.9,3,Underweight,Other,Single,1500,8.7,11.4
+18,Male,178.3,93.9,1,Overweight,White,Widowed,1915,6.1,29.6
+50,Female,178,63,3,Normal weight,White,Married,2097.5,7.2,19.9
+57,Female,181.3,71.5,4,Normal weight,White,Single,1976.9,8,21.8
+27,Female,177.8,86.8,4,Overweight,Black,Divorced,1947.3,6.6,27.4
+60,Male,168.9,59.9,3,Normal weight,Black,Widowed,2050.1,7.1,21
+61,Female,182.2,84.4,2,Overweight,Hispanic,Single,1806.7,7,25.4
+46,Female,159.3,39.1,1,Underweight,White,Widowed,1848.7,10,15.4
+30,Female,170.1,78.3,4,Overweight,Black,Single,1874.3,9.3,27.1
+29,Male,185.6,93.6,2,Overweight,White,Divorced,1918.1,7.9,27.2
+48,Male,157.5,61.3,1,Normal weight,Asian,Widowed,2096.5,6.9,24.7
+63,Male,163.2,86.8,4,Obese,Asian,Divorced,2031.6,6,32.6
+19,Female,176.7,97.5,4,Obese,White,Single,2105.7,6.5,31.2
+78,Female,173.9,66.2,3,Normal weight,Hispanic,Married,2000,7,21.9
+68,Female,161.2,64.9,1,Normal weight,Asian,Single,1774,8.1,25
+67,Male,165.8,56.5,2,Normal weight,Other,Widowed,2386.8,7.5,20.6
+52,Male,158.2,62.4,2,Normal weight,Black,Single,2207.6,5,24.9
+40,Female,179.8,57.8,2,Underweight,Hispanic,Widowed,1916.9,7,17.9
+34,Male,167.4,56.5,1,Normal weight,Black,Married,1545.6,10,20.2
+43,Male,187.9,88,2,Normal weight,Black,Married,2199.2,8.7,24.9
+25,Male,170.8,58.2,2,Normal weight,White,Divorced,2147.5,8,19.9
+46,Male,167.8,73.9,2,Overweight,White,Widowed,2127.1,7.4,26.2
+43,Female,166.8,70.6,3,Overweight,Asian,Married,2102.1,7.5,25.4
+27,Male,167.6,92.5,3,Obese,Other,Married,2055.4,6.8,32.9
+43,Male,171.1,62.5,1,Normal weight,Other,Divorced,1594.7,8,21.3
+79,Male,195.1,75.7,1,Normal weight,White,Married,1942.5,7.3,19.9
+51,Male,166.6,81.9,2,Overweight,Hispanic,Single,2451.3,5.8,29.5
+68,Female,166.9,92.3,3,Obese,Black,Widowed,2200.7,5.4,33.1
+58,Female,170.7,62.2,4,Normal weight,Asian,Single,1694.8,6.8,21.4
+24,Male,180.9,60.7,4,Normal weight,Asian,Single,2474.7,7.9,18.6
+21,Male,155.8,54.1,2,Normal weight,Black,Divorced,1868.4,8,22.3
+75,Male,174.6,103.5,2,Obese,Other,Widowed,2292.2,7.3,34
+70,Male,161.8,90.8,3,Obese,Hispanic,Married,2370.4,7.3,34.7
+67,Male,175.5,69.4,3,Normal weight,White,Widowed,1879,8.1,22.5
+62,Male,165.1,99,3,Obese,Hispanic,Divorced,2276.3,6.9,36.3
+28,Female,147,68.5,1,Obese,Asian,Widowed,2060.3,6.2,31.7
+46,Male,173.7,80.9,1,Overweight,Other,Widowed,2044.4,7.1,26.8
+73,Female,173.6,70.2,2,Normal weight,Other,Divorced,2209,7.5,23.3
+53,Female,164.2,76,1,Overweight,Hispanic,Married,2255.2,7.6,28.2
+42,Male,163.6,74.4,3,Overweight,Other,Married,1968.5,6.5,27.8
+38,Female,156.9,63.6,3,Overweight,White,Married,2305,8.6,25.8
+78,Female,177.7,86.4,1,Overweight,Other,Widowed,2210.3,6.7,27.3
+74,Female,178.8,80.7,4,Overweight,Hispanic,Widowed,1653.4,7.4,25.2
+53,Female,161.2,85.4,2,Obese,Other,Single,2147.7,5.2,32.9
+27,Female,164.6,74.8,4,Overweight,Other,Divorced,2351.1,7.2,27.6
+54,Female,169.4,56.4,2,Normal weight,Other,Divorced,1500,9,19.7
+26,Male,192.7,95.6,4,Overweight,Asian,Widowed,1908.5,7.7,25.8
+41,Female,175.5,66.1,1,Normal weight,Hispanic,Divorced,2119.6,7.9,21.5
+52,Female,160.6,75.5,2,Overweight,Other,Divorced,2179.2,7.4,29.3
+66,Female,173,79.5,2,Overweight,Other,Widowed,1852.1,8.1,26.6
+52,Male,156.2,75.4,2,Obese,Hispanic,Married,2224.5,6.6,30.9
+65,Female,177.2,83.7,3,Overweight,Hispanic,Married,1883.3,6,26.7
+53,Male,186.8,86.1,3,Normal weight,Asian,Single,1784.2,8.1,24.7
+35,Female,186.8,66.6,4,Normal weight,Asian,Widowed,1500,7.3,19.1
+66,Male,177.3,94.4,1,Obese,Hispanic,Married,2270.3,8,30
+56,Male,164.2,66,3,Normal weight,White,Divorced,2038,8.6,24.5
+49,Female,157,75.1,2,Obese,Hispanic,Single,2162.9,6.3,30.5
+41,Female,156,64.2,3,Overweight,Black,Divorced,2352.4,5.8,26.4
+40,Male,141.9,59.9,1,Overweight,Black,Married,1859.1,8.2,29.7
+79,Female,176.9,85.7,3,Overweight,Hispanic,Divorced,1938.2,8.9,27.4
+49,Male,169,116.8,2,Obese,White,Married,2156.4,6.7,40.9
+54,Male,179.1,64.6,4,Normal weight,White,Single,1879,7.4,20.1
+29,Male,184.3,88.2,2,Overweight,Black,Single,2468.4,6.6,26
+66,Male,171,65.1,1,Normal weight,Hispanic,Single,2166.4,8.4,22.3
+72,Male,171.5,69.8,4,Normal weight,Other,Married,1793.7,8.7,23.8
+30,Female,165.4,96.4,3,Obese,Asian,Single,2326.9,6.6,35.2
+40,Male,166.5,53.9,3,Normal weight,White,Married,1672,7.5,19.4
+42,Male,177.3,49.9,3,Underweight,Asian,Single,1625.9,10,15.9
+52,Female,168.3,68.7,4,Normal weight,Asian,Divorced,2114,7.5,24.3
+58,Male,166.8,80,2,Overweight,Black,Single,2286.6,7.1,28.7
+47,Female,169.8,77,4,Overweight,Hispanic,Divorced,1971.3,8.4,26.7
+34,Female,178.9,75.4,4,Normal weight,White,Widowed,1595.1,7.5,23.6
+66,Female,163.1,70.5,1,Overweight,Asian,Divorced,2140.7,8.9,26.5
+79,Male,169.3,81.8,4,Overweight,Other,Widowed,2146.5,6.9,28.5
+37,Male,172.5,26.3,3,Underweight,Other,Married,1826.2,9.7,8.8
+65,Male,181.6,58.7,2,Underweight,Other,Married,1545.9,7.7,17.8
+42,Female,167.6,68.6,2,Normal weight,Black,Married,2220.4,7.6,24.4
+39,Male,162.8,80.6,2,Obese,Other,Widowed,2163.6,7.7,30.4
+30,Female,165.2,92.3,3,Obese,Other,Divorced,1845.2,6.8,33.9
+76,Male,180.5,56.7,3,Underweight,White,Single,1849,8.3,17.4
+36,Female,190.3,91.9,3,Overweight,Other,Single,2030.7,5.6,25.4
+66,Male,156.9,63.2,3,Overweight,White,Divorced,2210.9,7.8,25.7
+53,Male,159,68.1,3,Overweight,Black,Widowed,1712.3,9.6,26.9
+29,Male,168.3,78.7,4,Overweight,White,Single,2243.8,8,27.8
+78,Female,171.1,67,3,Normal weight,White,Single,1959.9,10,22.9
+58,Female,177.9,86.7,3,Overweight,Black,Single,2110.9,9.1,27.4
+36,Male,161.1,63.9,3,Normal weight,Hispanic,Married,1839.8,8.2,24.6
+29,Male,159.4,64.2,3,Overweight,Other,Single,1931.8,8.4,25.3
+26,Female,171.4,85.8,2,Overweight,Black,Married,2033.8,4.6,29.2
+24,Female,167.4,58.6,3,Normal weight,Black,Divorced,1781.6,9.4,20.9
+45,Female,179.3,73.7,4,Normal weight,Black,Single,1924.8,8,22.9
+31,Male,174.9,45.1,4,Underweight,Hispanic,Widowed,1748.9,10,14.7
+48,Female,175.6,97.3,4,Obese,Other,Widowed,2015.4,6,31.6
+69,Male,169,88.1,1,Obese,Black,Divorced,2143.6,7.3,30.9
+36,Female,193.6,111.3,2,Overweight,Asian,Single,2401.6,7.2,29.7
+75,Male,161.6,90.1,3,Obese,White,Divorced,2157.9,8.1,34.5
+64,Female,176.1,53.1,1,Underweight,Hispanic,Divorced,1500,7.7,17.1
+33,Female,157.3,80,3,Obese,Asian,Married,2053.5,6.7,32.3
+70,Female,159.3,56.2,1,Normal weight,Asian,Single,2118.4,7,22.2
+22,Female,163.9,93.7,1,Obese,Asian,Divorced,1928.2,6.3,34.9
+52,Female,186.3,53.5,4,Underweight,Black,Divorced,1620.8,8.8,15.4
+29,Male,172.6,52.8,4,Underweight,Hispanic,Widowed,1500,8.2,17.7
+42,Female,164.1,45.9,1,Underweight,Hispanic,Single,2024.9,7.9,17
+69,Female,173.7,62.7,4,Normal weight,Black,Married,1851.1,9.2,20.8
+76,Female,170.4,59.7,1,Normal weight,Asian,Married,2190.8,7.7,20.6
+38,Male,165.1,51.1,2,Normal weight,White,Widowed,2163.2,6.5,18.7
+53,Female,156,99.8,4,Obese,Hispanic,Married,2361.2,5,41
+70,Male,184.4,77.9,4,Normal weight,White,Widowed,1907.7,7.5,22.9
+40,Female,172.1,76.2,4,Overweight,White,Divorced,1979.8,6,25.7
+33,Female,191.7,93.8,2,Overweight,Hispanic,Widowed,2114.3,7.2,25.5
+74,Male,179.4,73.8,1,Normal weight,Asian,Divorced,2169.2,7.6,22.9
+56,Female,175.5,58.8,3,Normal weight,Other,Widowed,1863.8,6.8,19.1
+62,Male,165.6,44.5,4,Underweight,Black,Divorced,2136.7,8.4,16.2
+70,Male,159,57.9,1,Normal weight,Other,Widowed,2151.4,7.7,22.9
+59,Female,167.8,92.6,2,Obese,Black,Single,2147.4,7.7,32.9
+75,Male,158.8,51.2,3,Normal weight,Hispanic,Widowed,1591.6,8,20.3
+56,Female,176.5,75.3,4,Normal weight,Black,Married,1918.9,7.1,24.2
+31,Female,186.3,85.5,2,Normal weight,Black,Married,1704.5,7.9,24.6
+48,Male,167.4,74.3,2,Overweight,Hispanic,Single,2155.4,7.9,26.5
+75,Male,179.4,76,3,Normal weight,Hispanic,Single,2091.5,7.2,23.6
+22,Male,163.1,79.8,1,Obese,White,Single,2156.5,6.4,30
+52,Male,167,75.7,4,Overweight,Asian,Married,2104.3,7,27.1
+40,Female,161.9,94.1,4,Obese,White,Divorced,2222.5,5.7,35.9
+46,Female,148.7,54.4,1,Normal weight,Asian,Divorced,1919.9,6.4,24.6
+60,Male,169.6,73.6,1,Overweight,Asian,Divorced,1836,7.9,25.6
+28,Female,171.3,42.7,1,Underweight,Asian,Widowed,1500,8.3,14.6
+35,Female,180.7,38.9,3,Underweight,Other,Divorced,1743,8.9,11.9
+64,Female,178,68.8,3,Normal weight,Black,Single,1944.9,10,21.7
+29,Female,178.1,78.2,4,Normal weight,White,Single,2763.2,7.5,24.6
+26,Male,160.3,94.5,3,Obese,Other,Divorced,2569.4,5.3,36.8
+27,Male,174.6,106.3,2,Obese,Asian,Single,2323.7,6,34.9
+75,Female,185.8,89.8,4,Overweight,Asian,Widowed,1856.9,7.3,26
+61,Male,173.8,80.9,3,Overweight,Asian,Single,1776.7,7.1,26.8
+34,Male,188.3,72.4,1,Normal weight,Asian,Widowed,2048.5,6.4,20.4
+78,Male,190.2,47,2,Underweight,White,Single,1561.1,8.9,13
+55,Female,167.3,67.8,1,Normal weight,Asian,Widowed,2154.9,7.9,24.2
+24,Female,163,89.4,4,Obese,Asian,Widowed,2239.1,6.7,33.6
+63,Female,162.4,83.5,1,Obese,Black,Widowed,1997.4,4.9,31.7
+30,Male,154.8,50.7,3,Normal weight,Other,Divorced,1840.2,8.5,21.1
+57,Female,164.8,79.2,3,Overweight,Other,Divorced,2119.3,7.9,29.2
+59,Female,182.1,77.9,4,Normal weight,Black,Widowed,1863.3,7.9,23.5
+26,Male,148,75.2,1,Obese,Other,Widowed,2198.6,7.2,34.4
+67,Female,159.6,69.6,4,Overweight,Black,Widowed,1946.5,6,27.3
+44,Female,168.7,80,1,Overweight,Asian,Married,2356,8,28.1
+75,Male,161.2,80.5,2,Obese,White,Divorced,2164.1,6.8,31
+19,Male,164.7,60.4,3,Normal weight,Asian,Married,1888.5,7.8,22.3
+22,Male,164.9,76.8,4,Overweight,Asian,Widowed,1996.3,8.9,28.3
+46,Female,167.4,67.2,2,Normal weight,Other,Widowed,1793.8,7.3,24
+54,Female,162.7,47.7,2,Underweight,Other,Widowed,2157.8,9.2,18
+55,Female,161.9,61.6,4,Normal weight,Black,Widowed,1910.5,5.6,23.5
+36,Male,179.3,46.5,4,Underweight,Hispanic,Married,1828.6,8.1,14.5
+25,Male,180.5,84.7,2,Overweight,Asian,Married,2097.2,7.6,26
+65,Female,156.2,75.3,1,Obese,Other,Married,2007.6,5.4,30.9
+62,Female,142.4,64.7,2,Obese,White,Divorced,2108.4,7.8,31.9
+18,Male,180.6,91.3,4,Overweight,White,Married,2543.1,9.1,28
+39,Male,157.7,71,2,Overweight,Other,Widowed,1974.7,6.5,28.6
+69,Male,172.1,48.5,1,Underweight,Asian,Widowed,1743.9,8.7,16.4
+34,Male,154.3,63.4,3,Overweight,Black,Divorced,2288.1,6.1,26.6
+24,Female,183,94.5,3,Overweight,Other,Widowed,1795.8,9.2,28.2
+42,Male,195.4,60,2,Underweight,Hispanic,Married,1829.4,9.2,15.7
+62,Female,171.8,74.1,1,Overweight,White,Single,2205.4,7,25.1
+21,Female,169.1,81.2,3,Overweight,Other,Single,2162.2,6.2,28.4
+53,Female,166.8,78.8,2,Overweight,Other,Divorced,2236,7,28.3
+23,Male,177.8,106.7,2,Obese,White,Single,2047.6,6.4,33.8
+77,Male,175.7,52.4,1,Underweight,White,Married,2019.4,8.7,17
+48,Male,180,53.9,4,Underweight,Other,Married,2025.4,7.3,16.6
+36,Male,163.7,52.6,2,Normal weight,Hispanic,Married,1500,8.1,19.6
+78,Female,173.4,65.6,4,Normal weight,Other,Single,2069.8,5,21.8
+61,Male,164.6,86.5,4,Obese,Hispanic,Divorced,2069.4,8,31.9
+71,Male,159.4,54.5,3,Normal weight,Other,Widowed,1857.2,7.6,21.5
+56,Female,169.6,86.7,4,Obese,Other,Divorced,2122.3,7,30.1
+44,Male,160.8,70.5,1,Overweight,White,Married,1996.8,8.2,27.3
+27,Female,181.7,53.4,3,Underweight,Black,Married,1925.6,7.6,16.2
+43,Female,161.4,43.7,3,Underweight,Other,Married,2160.9,7.8,16.8
+36,Female,173.6,47.1,3,Underweight,White,Widowed,1882.2,7.8,15.6
+56,Female,164,60,2,Normal weight,Other,Divorced,1665.9,6.5,22.3
+79,Female,172.8,67.5,2,Normal weight,Hispanic,Single,2132.8,8.8,22.6
+20,Female,164.8,90.2,4,Obese,Asian,Married,2200.7,6.6,33.2
+62,Female,157.4,82,3,Obese,Hispanic,Divorced,2679.2,6,33.1
+30,Female,174.8,57.4,3,Normal weight,Asian,Single,1686.4,8.7,18.8
+67,Male,167.6,76.1,1,Overweight,White,Widowed,2061.3,6.4,27.1
+45,Male,172.9,94.8,4,Obese,White,Divorced,2238.5,5.7,31.7
+79,Male,165.7,98.1,1,Obese,White,Divorced,2333.1,5.8,35.7
+75,Male,156.7,65.3,4,Overweight,Other,Married,1931.7,7.4,26.6
+37,Female,180.8,84.4,4,Overweight,White,Divorced,1851.4,6.6,25.8
+45,Male,177.4,90.8,2,Overweight,Hispanic,Widowed,2332.6,7.8,28.9
+25,Female,164.3,47.4,2,Underweight,Other,Divorced,1638.1,7,17.6
+78,Male,170.7,62.3,1,Normal weight,Black,Married,1949.2,8.1,21.4
+58,Male,180.4,103.3,4,Obese,White,Widowed,2241.4,7.5,31.7
+56,Male,165.4,65.5,3,Normal weight,Hispanic,Single,2120.6,6.3,23.9
+18,Female,167,26.1,2,Underweight,Other,Single,2116.3,7,9.3
+20,Male,172.4,68.2,3,Normal weight,Asian,Widowed,1576.7,9.4,22.9
+30,Female,165.4,86.9,1,Obese,White,Divorced,2066.9,6.1,31.8
+45,Female,178.6,70.1,2,Normal weight,Hispanic,Single,1526.4,7.4,22
+79,Male,168.3,80.7,2,Overweight,Hispanic,Divorced,1869.1,8.2,28.5
+74,Male,162.2,84.1,4,Obese,White,Divorced,2252.4,7.6,32
+77,Male,176.1,64.7,1,Normal weight,White,Married,1529,7.5,20.9
+66,Female,158.6,62.2,4,Normal weight,Asian,Divorced,2152.6,5.9,24.7
+42,Male,190.1,72.3,2,Normal weight,Hispanic,Widowed,1673.8,7.5,20
+73,Female,185.8,72.7,1,Normal weight,Other,Single,2035.6,8.2,21
+50,Female,175.1,70.8,2,Normal weight,White,Single,1774.7,8.8,23.1
+55,Male,174.3,71.4,1,Normal weight,White,Single,1888.3,8.7,23.5
+70,Male,173.8,58.8,2,Normal weight,Other,Divorced,1920.4,8.4,19.5
+23,Female,165.1,81.3,3,Overweight,Asian,Single,1980.6,6.5,29.8
+75,Female,173,79,3,Overweight,Hispanic,Married,2135.2,9.8,26.4
+61,Female,160.8,50,4,Normal weight,Asian,Single,2000.3,8.3,19.3
+62,Male,175,64.2,3,Normal weight,Black,Married,1872.4,10,20.9
+49,Female,178.7,71.4,2,Normal weight,Black,Widowed,1553.4,7.8,22.4
+62,Male,166.2,62,2,Normal weight,Hispanic,Single,1992.5,7.5,22.4
+78,Female,164,79.6,3,Overweight,Asian,Widowed,1750.9,8.5,29.6
+64,Female,157.9,69,4,Overweight,Black,Widowed,2279.1,8.3,27.7
+38,Male,184.6,72.5,3,Normal weight,Hispanic,Married,1981.5,8.2,21.3
+33,Female,164.8,64,1,Normal weight,Hispanic,Married,2137.1,6.2,23.5
+71,Male,168,40.1,1,Underweight,Other,Married,1889.2,6.8,14.2
+38,Male,173,39.2,1,Underweight,Other,Widowed,1761.1,9.3,13.1
+28,Female,172.8,78.8,3,Overweight,White,Divorced,1987.2,7.1,26.4
+77,Male,177.5,74,3,Normal weight,Other,Divorced,1865.4,8.5,23.5
+54,Male,166.2,76.6,3,Overweight,Asian,Married,1935.2,7.9,27.7
+53,Female,158.6,72,1,Overweight,Black,Widowed,1921.6,6.4,28.6
+52,Male,156.9,73.2,4,Overweight,White,Married,2377,5.4,29.8
+36,Male,164.2,84.5,2,Obese,White,Married,1999.3,8.7,31.4
+37,Male,160.5,76.7,3,Overweight,Asian,Widowed,2127.4,7.6,29.8
+74,Female,167,85.6,4,Obese,Black,Divorced,2202.7,9.2,30.7
+35,Male,183.1,72.6,2,Normal weight,Black,Single,1500,8.4,21.7
+64,Female,166.2,65.5,2,Normal weight,Asian,Divorced,1809.7,7.5,23.7
+58,Female,166.2,72.9,2,Overweight,Other,Widowed,1828.5,7.8,26.4
+66,Male,169.8,57.5,4,Normal weight,Other,Single,1956.7,8.1,19.9
+31,Male,165.9,64.3,4,Normal weight,Other,Married,1919.6,5.6,23.4
+32,Male,169.3,72.7,1,Overweight,Hispanic,Divorced,1957.5,8.5,25.3
+48,Female,175.4,72.5,4,Normal weight,White,Married,2034.6,7,23.6
+18,Male,178.8,68.4,4,Normal weight,Black,Married,1846.3,7.7,21.4
+70,Male,180,49.2,4,Underweight,Hispanic,Single,1721.8,8.8,15.2
+71,Male,190.6,79.5,2,Normal weight,Other,Married,2067.5,7.9,21.9
+71,Male,175.7,82.5,3,Overweight,Black,Widowed,1716,7.8,26.7
+20,Male,192.3,94.7,1,Overweight,Hispanic,Widowed,2090.4,7.2,25.6
+33,Female,162.2,76.6,3,Overweight,White,Divorced,1902,5.1,29.1
+40,Female,190.9,70,3,Normal weight,Other,Widowed,1657.9,8.6,19.2
+74,Male,166.2,54.8,4,Normal weight,Hispanic,Married,1897.8,7.2,19.8
+28,Male,167.2,92.4,1,Obese,Other,Divorced,2389,7.2,33.1
+29,Male,168.8,73.7,3,Overweight,Black,Divorced,2158.5,7.2,25.9
+27,Male,167.8,72.9,3,Overweight,Other,Widowed,1816.1,7.2,25.9
+49,Female,170.9,66.2,1,Normal weight,Hispanic,Married,2194.9,8.8,22.7
+33,Male,164.2,65.2,4,Normal weight,White,Single,1962.2,8.1,24.2
+25,Female,178.3,80.3,3,Overweight,Black,Single,2114.3,7.6,25.3
+55,Female,164.5,54.7,2,Normal weight,Black,Married,2180,8.2,20.2
+29,Male,176.6,94.4,3,Obese,Black,Divorced,2072.8,8.2,30.3
+41,Female,185.3,91.1,2,Overweight,Other,Married,1829.8,8.4,26.5
+45,Female,166.4,64.7,4,Normal weight,Other,Single,2095.8,6.1,23.4
+70,Female,177.9,57,3,Underweight,Asian,Divorced,1783.7,9.3,18
+25,Female,175.6,39.8,1,Underweight,Black,Single,1500,9.9,12.9
+75,Male,192.5,51.2,1,Underweight,Black,Single,1854.9,8.3,13.8
+45,Male,165,80.9,3,Overweight,Asian,Divorced,2118.8,7,29.8
+53,Female,178,74.7,4,Normal weight,Asian,Single,1823.9,8.5,23.6
+43,Male,153.7,77.4,4,Obese,Asian,Widowed,2306.8,7.4,32.7
+25,Male,165,42.3,1,Underweight,Hispanic,Married,1524.8,9.6,15.5
+75,Male,173.5,64.1,3,Normal weight,White,Widowed,1756.7,8.1,21.3
+77,Male,183.9,90.5,4,Overweight,Other,Divorced,2097.1,6.2,26.8
+67,Male,157.7,68.6,1,Overweight,Black,Widowed,1842.7,6.3,27.6
+45,Female,177.9,50.9,2,Underweight,White,Divorced,1784.3,7.8,16.1
+45,Male,169.4,68.3,3,Normal weight,White,Divorced,1660.7,6,23.8
+54,Male,154.8,58.4,2,Normal weight,White,Divorced,2225.8,6.6,24.4
+58,Male,171.8,75,2,Overweight,Other,Divorced,2364.2,7.7,25.4
+53,Male,187.1,70.3,4,Normal weight,White,Married,2112.7,8.5,20.1
+44,Female,158.8,78.1,4,Obese,Black,Single,2408.6,7.4,31
+71,Female,168.9,51.7,4,Underweight,Hispanic,Divorced,1744.3,9.5,18.1
+34,Female,160.1,63.3,3,Normal weight,Black,Married,2276.3,6.8,24.7
+26,Female,165.3,86.4,2,Obese,Other,Single,2221.4,7.4,31.6
+50,Male,184.3,49.7,3,Underweight,Black,Single,1550.7,9,14.6
+70,Female,167.3,55,4,Normal weight,Black,Divorced,1828,6,19.6
+37,Male,184,73,2,Normal weight,Other,Married,2260.8,8.3,21.6
+30,Male,181.1,74.3,3,Normal weight,Hispanic,Married,2027.3,7.3,22.7
+45,Male,166.4,62.7,3,Normal weight,Asian,Widowed,1969,7.7,22.6
+65,Male,165,65.8,1,Normal weight,Other,Married,2197.3,7.9,24.2
+46,Male,161,78,3,Obese,Asian,Married,1838.7,7.1,30.1
+30,Female,160.7,82.7,4,Obese,Hispanic,Married,2335.9,6.8,32
+63,Female,173.5,54,3,Underweight,White,Single,1686.3,8.5,17.9
+52,Female,169.8,75.5,2,Overweight,Hispanic,Widowed,1666.5,6.4,26.2
+78,Female,163.8,92.7,3,Obese,Black,Widowed,2237.1,6,34.6
+23,Male,154.5,68.3,1,Overweight,White,Divorced,2324.8,7.9,28.6
+35,Female,171.1,53.8,2,Underweight,Other,Divorced,1724.9,8.2,18.4
+68,Male,165.3,53.1,2,Normal weight,Asian,Divorced,1588.2,9.8,19.4
+22,Female,168,67.6,1,Normal weight,Hispanic,Married,2104,8.8,23.9
+64,Male,173,85.5,4,Overweight,Hispanic,Divorced,1895.6,7.6,28.6
+42,Male,145,69.4,2,Obese,White,Married,2050.6,6.1,33
+19,Female,154.7,72.8,4,Obese,Hispanic,Single,2231,7.1,30.4
+27,Male,193,55.1,2,Underweight,Hispanic,Single,1931.7,8.2,14.8
+73,Male,164.9,84.7,2,Obese,Asian,Widowed,2059.6,8.3,31.2
+47,Female,144.8,52.8,4,Overweight,White,Divorced,2254.1,9.9,25.2
+67,Male,155.5,62.4,2,Overweight,Other,Divorced,1936.5,8.6,25.8
+76,Female,194.8,79.4,4,Normal weight,Hispanic,Widowed,2081.1,6.4,20.9
+62,Female,163,39.4,1,Underweight,Asian,Widowed,1812.8,8.5,14.8
+22,Female,181.6,72.6,4,Normal weight,Hispanic,Divorced,2183.9,7.1,22
+72,Male,171.2,54.4,1,Normal weight,Hispanic,Married,2061.9,7.9,18.6
+73,Male,165.2,70.2,2,Overweight,Hispanic,Single,2043.9,7.5,25.8
+50,Male,177.8,64.7,4,Normal weight,Asian,Single,1853,7.9,20.5
+71,Female,146.2,101.6,2,Obese,Asian,Single,2660.2,6.5,47.6
+18,Male,155.6,64.1,4,Overweight,Asian,Single,1987.7,8.8,26.5
+35,Female,165.1,97.6,1,Obese,Hispanic,Single,2336.1,6.8,35.8
+49,Female,156.6,78.8,1,Obese,Asian,Widowed,1826.6,7.5,32.1
+64,Male,164.2,58,4,Normal weight,Asian,Widowed,2008.4,7.1,21.5
+66,Female,178.5,75,1,Normal weight,Black,Married,1791.1,7.4,23.5
