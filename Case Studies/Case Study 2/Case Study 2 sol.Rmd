@@ -1,0 +1,272 @@
+---
+title: "Case Study 2 - K Nearest Neighbors Solutions"
+output: pdf_document
+---
+
+# Today's Goal
+
+Welcome to the second case study in our series focusing on the K-Nearest Neighbors(KNN) algorithm. In this case study, we will continue our exploration of addressing the prevalent health concern of obesity through predictive modeling. Our main goal today is to leverage the KNN algorithm to classify individuals into obesity categories based on their unique characteristics.
+
+# Dataset Overview
+
+For this case study, we'll continue working with the dataset used in our first case study on neural networks. This dataset contains extensive information on individuals' demographic characteristics, physical attributes, and lifestyle habits. To streamline our analysis, we'll utilize the tidy version of the dataset, where numerical variables have been rounded and a Body Mass Index (BMI) variable has been added.
+
+Before we start our analysis, please download the dataset 'obesity_cleaned.csv' from the GitHub folder 'case study 2'.
+
+The original dataset source: https://www.kaggle.com/datasets/mrsimple07/obesity-prediction/data.
+
+# 1. Getting Started
+
+## A. Initial Setups
+
+(i) To begin, make sure you have the following libraries installed and loaded in your R environment: tidyverse, ggplot2, dplyr, caret and class.
+
+```{r, message=FALSE}
+# install.packages('class')
+# install.packages('caret')
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(caret)
+library(class)
+```
+
+(ii) Set the seed to '123' to ensure the reproducibility of your results.
+
+**Recap**: Why is it important to set a seed at the beginning of our analysis?
+
+```{r}
+set.seed(123)
+```
+
+(iii) Now, please load the dataset that you've downloaded into your R environment. Assign this data to an object named 'knn_data'.
+
+```{r}
+knn_data <- read.csv('obesity_cleaned.csv')
+```
+
+## B. Data Cleanings
+
+(i) Once again, familiarize yourself with the structure of the dataset.
+
+**Hint**: You can use functions like `head()` and `glimpse()` to get an overview of the data.
+
+```{r}
+head(knn_data)
+# glimpse(knn_data)
+```
+
+(ii) Generate a statistical summary for the numerical variables in the dataset.
+
+**Hint**: Try using the function `summary()`.
+
+```{r}
+summary(knn_data)
+```
+
+(iii) What are the minimum, maximum, mean, and median values of sleeping hours for the individuals in the dataset?
+
+- **Min**: 4.00
+- **Ma**x: 10.00
+- **Mean**: 7.51
+- **Median**: 7.55
+
+(iv) Transform all categorical variables into their factor formats. By doing so, we ensure that R recognizes and treats these variables as categorical in the visualization the modeling tasks.
+
+**Hint**: You can use the function `as.factor()`.
+
+```{r}
+knn_data$Gender <- as.factor(knn_data$Gender)
+knn_data$PhysicalActivityLevel <- as.factor(knn_data$PhysicalActivityLevel)
+knn_data$ObesityCategory <- as.factor(knn_data$ObesityCategory)
+knn_data$Race <- as.factor(knn_data$Race)
+knn_data$MaritalStatus <- as.factor(knn_data$MaritalStatus)
+```
+
+# 2. Data Visualizations
+
+(i) Create a bar plot to visualize the distribution of obesity categories among different marital statuses in the dataset. Make sure you generate a plot with clear title and axis label.
+
+**Hint**: To differentiate between different marital statuses, use distinct colors for the bars to represent different marital status by including `fill = MaritalStatus` within the `aes()` argument.
+
+```{r}
+ggplot(knn_data, aes(x = ObesityCategory, fill = MaritalStatus)) +
+  geom_bar(position = "dodge", color = "black") +
+  labs(title = "Distribution of Obesity Categories by Marital Status",
+       x = "Obesity Category",
+       y = "Frequency",
+       fill = "Marital Status")
+```
+
+- `position = "dodge"`: This parameter specifies the positioning of the bars in the plot. When set to "dodge", it means that the bars for different levels of the MaritalStatus variable will be positioned side by side, making it easier to compare the distribution of obesity categories across different marital statuses.
+
+- `color = "black"`: This parameter sets the color of the outlines of the bars. By specifying `color = "black"`, the borders of the bars will be drawn in black color.
+
+- `fill = "Marital Status"`: This parameter maps the MaritalStatus variable to the fill aesthetic of the bars. Each level of the MaritalStatus variable will be represented by a different color, allowing us to visually differentiate between the bars corresponding to different marital statuses.
+
+(ii) Briefly describe the distributions you observed from the generated bar plot.
+
+Based on the bar plot, the frequency of individuals with normal weight is highest among those who are single, followed by those who are married, divorced, and then widowed, with the widowed group having the lowest frequency. For the obese and overweight categories, individuals who are divorced appear to be the most represented, while in the underweight category, single individuals are the most prevalent. Overall, there are fewer individuals in the dataset who fall into the obese and underweight categories compared to the normal weight and overweight categories.
+
+(iii) Create a scatter plot to visualize the correlation between daily calorie intake and weight, differentiated by gender. Again, make sure you generate a plot with clear title and axis label.
+
+```{r}
+ggplot(knn_data, aes(x = DailyCalorieIntake, y = Weight, color = Gender)) +
+  geom_point() +
+  labs(title = "Correlation between Daily Calorie Intake and Sleep Hours by Gender",
+       x = "Daily Calorie Intake",
+       y = "Sleep Hours")
+```
+
+\newpage
+
+(iv) What can you infer from the scatter plot?
+
+According to the scatter plot, there is a moderate positive correlation between daily calorie intake and weight. The plot also shows that the correlation between calorie intake and weight is similar for both genders, as evidenced by the interspersed distribution of red (female) and blue (male) points across the entire range of calorie intake values.
+
+# 3. Model Building
+
+(i) Before building our KNN models, we need to first scale all numerical variables in our dataset to ensure they all contribute equally to the analysis. Use the `scale()` function to normalize these variables.
+
+```{r}
+variables_to_scale <- c("Age", "Height", "Weight", "BMI", "DailyCalorieIntake", "SleepHours")
+knn_data[variables_to_scale] <- scale(knn_data[variables_to_scale])
+```
+
+(ii) Similar to what we've done in case study 1, convert 'Gender', 'Race', and 'MaritalStatus' into their numeric formats.
+
+```{r}
+knn_data$Gender <- as.numeric(factor(knn_data$Gender))
+knn_data$Race <- as.numeric(factor(knn_data$Race))
+knn_data$MaritalStatus <- as.numeric(factor(knn_data$MaritalStatus))
+```
+
+(iii) Divide the dataset into 70% training and 30% testing sets.
+
+```{r}
+data_rows <- floor(0.7 * nrow(knn_data))
+train_indices <- sample(c(1:nrow(knn_data)), data_rows)
+train_data <- knn_data[train_indices,]
+test_data <- knn_data[-train_indices,]
+```
+
+(iv) Remove the response variable 'ObesityCategory' from the training and testing datasets, and store the resulting datasets into new objects titled 'train_scaled' and 'test_scaled'.
+
+**Note**: Don't change the original traing data 'train_data' and testing data 'test_data'.
+
+```{r}
+train_scaled <- train_data %>% select(-ObesityCategory)
+test_scaled <- test_data %>% select(-ObesityCategory)
+```
+
+**Discussion**: Why do we need to remove the respones variable before we apply the KNN algorithm to make predictions on our dataset?
+
+KNN uses the features (independent variables) of the k nearest neighbors to classify a new observation. Including the response variable in the feature set would give the model direct access to the answer, which could then leads to overfitting.
+
+(v) Constructing the KNN Model
+
+- Use the `knn()` function to build the KNN model and make predictions. Recall that our goal is to classify individuals into specific obesity categories.
+- Use all available covariates in the dataset.
+- Set the number of neighbors k to 1.
+- Store the predictions in a variable named test_pred.
+
+```{r}
+test_pred <- knn(
+                 train = train_scaled,
+                 test = test_scaled,
+                 cl = train_data$ObesityCategory,
+                 k=1
+                 )
+```
+
+(vi) Evaluate the model's performance by generating the confusion matrix for the KNN predictions using the function confusionMatrix().
+
+```{r}
+confusionMatrix <- confusionMatrix(as.factor(test_pred), as.factor(test_data$ObesityCategory))
+print(confusionMatrix)
+```
+
+(vii) What do the accuracy, sensitivity, and specificity rates indicate about the predictive power of the model?
+
+The model exhibits moderate accuracy at 67.33%, indicating that it correctly predicts the obesity category for approximately two-thirds of the cases. The sensitivity rates reveal that the model is best at correctly identifying underweight individuals (72.34%), followed by those with obesity (71.43%), normal weight (67.59%), and overweight (61.80%). In terms of specificity, the model performs exceptionally well in distinguishing individuals who are not underweight (96.05%) and not obese (93.85%), but it is less effective in distinguishing those who are not overweight or not of normal weight, with specificity rates of 80.57% and 83.33% respectively. These metrics suggest the model is more reliable in identifying true positives in the obese and underweight categories and true negatives in the underweight and obese categories.
+
+(viii) Use the KNN algorithm to make predictions by setting the number of nearest neighbors to 5, 10, 20, and 100. For each model, generate the corresponding confusion matrices.
+
+```{r}
+test_pred2 <- knn(
+                 train = train_scaled,
+                 test = test_scaled,
+                 cl = train_data$ObesityCategory,
+                 k=5
+                 )
+```
+
+```{r}
+confusionMatrix2 <- confusionMatrix(as.factor(test_pred2), as.factor(test_data$ObesityCategory))
+print(confusionMatrix2)
+```
+
+```{r}
+test_pred3 <- knn(
+                 train = train_scaled,
+                 test = test_scaled,
+                 cl = train_data$ObesityCategory,
+                 k=10
+                 )
+```
+
+```{r}
+confusionMatrix3 <- confusionMatrix(as.factor(test_pred3), as.factor(test_data$ObesityCategory))
+print(confusionMatrix3)
+```
+
+```{r}
+test_pred4 <- knn(
+                 train = train_scaled,
+                 test = test_scaled,
+                 cl = train_data$ObesityCategory,
+                 k=20
+                 )
+```
+
+```{r}
+confusionMatrix4 <- confusionMatrix(as.factor(test_pred4), as.factor(test_data$ObesityCategory))
+print(confusionMatrix4)
+```
+
+```{r}
+test_pred5 <- knn(
+                 train = train_scaled,
+                 test = test_scaled,
+                 cl = train_data$ObesityCategory,
+                 k=100
+                 )
+```
+
+```{r}
+confusionMatrix5 <- confusionMatrix(as.factor(test_pred5), as.factor(test_data$ObesityCategory))
+print(confusionMatrix5)
+```
+
+(ix) Based on the performance metrics obtained for different values of 'k' in the KNN algorithm, what can you conclude about the impact of 'k' on the model's predictive accuracy?
+
+As per the performance metrics, increasing 'k' from 1 to 20 leads to an improvement in classification accuracy, with the peak accuracy of 77.67% observed at k=5. This indicates that a moderate number of neighbors, particularly around 5 for our task, optimizes the balance between capturing the underlying patterns in the data and avoiding overfitting. To conclude, a very small 'k' might lead to overfitting by being too sensitive to noise in the data, whereas a very large 'k' tends to overly generalize, thereby missing critical data nuances, which is reflected in the reduced accuracy when k=100.
+
+(x) Discuss the advantages and disadvantages of applying KNN versus Neural Networks for our classification tasks.
+
+**Advantages of KNN**
+
+- Since KNN is a lazy learning algorithm, it doesn't require training a model. This can save time and computational resources, especially for smaller datasets. Neural Networks require a significant amount of data and computational resources for training.
+- KNN is straightforward to understand and implement. As comparisons, Neural Networks are often considered "black boxes" due to their complex structure, making it difficult to understand how decisions are made.
+
+**Disadvantages of KNN**
+
+- KNN's performance deteriorates as the dataset size increases, due to the need to compute the distance between the test sample and each training example, making it less efficient for large datasets.
+- Since distance measurements are at the core of KNN, the presence of irrelevant or redundant features can significantly impact the algorithm's performance, requiring careful feature selection.
+- KNN stores all the training data, which can lead to high memory usage for large datasets, making it impractical for applications with memory constraints.
+
+
+
+
+
+
